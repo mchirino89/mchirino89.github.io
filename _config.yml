@@ -20,9 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   the COVID-19 pandemic. Even though it seems the whole world is on pause,
   technology and innovation never rest. Neither do I 😈🤓
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://geekingwithmauri.com # the base hostname & protocol for your site, e.g. http://example.com
+permalink: none
+url: https://geekingwithmauri.com
 twitter_username: chirino89m
-github_username:  mchirino89
+github_username: mchirino89
 
 # Build settings
 markdown: kramdown

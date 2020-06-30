@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 I've been writing code since 2007 and getting paid for it since 2013 (outside of college), 
@@ -19,5 +18,10 @@ to the community when time and family obligation allows me to. Feel free to
 [reach me out](https://github.com/mchirino89) or leave some [comment](https://twitter.com/Chirino89M)
 comment. If it's a business/idea topic you can also [find me around](https://www.linkedin.com/in/mauriciochirino/)
 with a more serious face 👨🏽‍💻
+
+Right now I'm working on [PedidosYa](https://www.pedidosya.com/). For those of you reading from USA,
+it's like _[DoorDash]_(https://www.doordash.com/en-US) but in Latin America -it's not a claim bold 
+on my behalf: I knew theirs Mobile technical lead in a conference and those were her exact 
+same words 😄-
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
