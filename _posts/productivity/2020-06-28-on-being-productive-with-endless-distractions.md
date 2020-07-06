@@ -14,7 +14,7 @@ categories: productivity
 [pause]: https://www.sprintphysio.co.uk/patient-exercises/at-work/pause-exercises.html
 
 Let's put some context for such a click-bait, eye-catching title I choose for this post. as I said in
-[my introduction]({% link about.md %}), I work in the last mile delivery logistic business and
+[my introduction]({% link pages/about.md %}), I work in the last mile delivery logistic business and
 if you've been following the news _at all_ you do the math:
 
 Delivery service + COVID-19 + mid 2020 = developers are swamp at work right now 😰
