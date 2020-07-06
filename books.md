@@ -2,7 +2,6 @@
 layout: page
 title: Books
 ---
-
 Endless sources of wisdom, if chosen carefully, books are one the most powerful
 tools you can count on. Not only to develop yourself as a professional but as 
 well as a matter of personal growth and mind-broadening, I'll share some books 
@@ -42,7 +41,9 @@ Last, but definitively not least, I highly recommend this book, the only from th
 
 A real brain-broadening experience awaits for you with the thesis the authors expose in these pages.
 
-Do you have a book to recommend? Feel free to reach me out on [Twitter]({{ site.twitter_username }}) and I'll take a look to see if it makes the cut 😉
+Do you have a book to recommend? Feel free to reach me out on [Twitter][twitter] and I'll take a look to see if it makes the cut 😉
+
+[twitter]: https://www.twitter.com/chirino89m 
 
 [habits]: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People?ac=1&from_search=true&qid=BBrZPfq06f&rank=1
 
