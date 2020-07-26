@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   technology and innovation never rest. Neither do I 😈🤓
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: none
-url: https://geekingwithmauri.com
+url: https://geekingwithmauri.github.io
 twitter_username: chirino89m
 github_username: mchirino89
 google_analytics: UA-51645602-3
