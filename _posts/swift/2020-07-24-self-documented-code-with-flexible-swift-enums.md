@@ -4,30 +4,23 @@ title:  "Self documented code with flexible Swift enums"
 categories: swift
 ---
 
-[image]: (/assets/posts/enums/compass.jpg)
-
+[referralAutor]: https://pixabay.com/es/users/daledbet-14607822/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
+[referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
 [joke]: https://twitter.com/iamdevloper/status/1060067235316809729
-
 [spelling errors]: https://stackoverflow.com/a/26667211/2376336
-
 [templates]: https://stackoverflow.com/a/38071980/2376336
-
 [noDocBelievers]: https://hackaday.com/2019/03/05/good-code-documents-itself-and-other-hilarious-jokes-you-shouldnt-tell-yourself/
-
 [enum]: https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
-
 [properties]: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
-
 [DRY]: https://deviq.com/don-t-repeat-yourself/
-
 [split]: https://developer.apple.com/documentation/swift/string/2894564-split
-
 [iterable]: https://developer.apple.com/documentation/swift/caseiterable
 
 <!-- ------------ -->
 
 {:refdef: style="text-align: center;"}
-![compass](/assets/posts/enums/compass.jpg)
+![compass](/assets/posts/compass.jpg)
+Image by [David Ledbetter][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
 Documentation is paramount for software development. -[Jokes aside][joke]- well documented libraries and SDKs are fundamental in order to rapidly build well crafted software, otherwise us as coder would be forever rewriting what has already be written just because no one understands what someone else did previously for lack of documentation.
@@ -109,7 +102,7 @@ enum CardinalPoint {
 }
 {% endhighlight %}
 
-This will produce our desired output. You might be wondering why I chose to unwrap the split result in such a way (instead of force unwrapping it when clearly is going to be a resulting value all the time)
+This will produce our desired output. You might be wondering why I chose to unwrap the split result in such a way (instead of force unwrapping it when clearly is going to be a resulting value all the time). It'll become clear on the next topic.
 
 ## Testing time! ❌ - ✅ - ♻️
 

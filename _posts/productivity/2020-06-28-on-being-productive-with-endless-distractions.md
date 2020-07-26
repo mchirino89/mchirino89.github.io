@@ -4,6 +4,8 @@ title:  "Being productive with endless \"free\" distractions"
 categories: productivity
 ---
 
+[referralAutor]: https://pixabay.com/es/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1995786
+[referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1995786
 [discipline]: https://www.goodreads.com/book/show/34431560-discipline-equals-freedom
 [makersPost]: http://www.paulgraham.com/makersschedule.html
 [socialActivity]: https://pdfs.semanticscholar.org/63fa/86c5b5594e5b3b31b7e2c5252b7beaa8868a.pdf?_ga=2.200159982.1170270142.1593951485-1234286995.1593951485
@@ -12,6 +14,11 @@ categories: productivity
 [exercise]: https://time.com/4475628/the-new-science-of-exercise/?iid=toc_080116
 [gymvirtual]: https://www.youtube.com/channel/UCVC52WMVzpkEUo3E7ykpv9g
 [pause]: https://www.sprintphysio.co.uk/patient-exercises/at-work/pause-exercises.html
+
+{:refdef: style="text-align: center;"}
+![compass](/assets/posts/productivity.jpg)
+Image by [Gerd Altmann][referralAutor] from [Pixabay][referralLink]
+{: refdef}
 
 Let's put some context for such a click-bait, eye-catching title I choose for this post. as I said in
 [my introduction]({% link pages/about.md %}), I work in the last mile delivery logistic business and

@@ -6,6 +6,7 @@ group :development, :test do
   gem "webdrivers"
   gem "capybara"
   gem "rack-jekyll"
+  gem "rack", ">= 2.1.4"
   gem "pry"
 end
 
