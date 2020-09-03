@@ -8,6 +8,9 @@ group :development, :test do
   gem "rack-jekyll"
   gem "rack", ">= 2.1.4"
   gem "pry"
+  gem "kramdown", ">= 2.3.0"
+
+
 end
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -26,7 +29,7 @@ gem 'jemoji'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 206", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

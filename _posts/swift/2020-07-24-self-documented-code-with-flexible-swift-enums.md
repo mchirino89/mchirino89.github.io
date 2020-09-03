@@ -7,7 +7,7 @@ categories: swift
 [referralAutor]: https://pixabay.com/es/users/daledbet-14607822/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
 [referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
 [joke]: https://twitter.com/iamdevloper/status/1060067235316809729
-[spelling errors]: https://stackoverflow.com/a/26667211/2376336
+[spellingErrors]: https://stackoverflow.com/a/26667211/2376336
 [templates]: https://stackoverflow.com/a/38071980/2376336
 [noDocBelievers]: https://hackaday.com/2019/03/05/good-code-documents-itself-and-other-hilarious-jokes-you-shouldnt-tell-yourself/
 [enum]: https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
@@ -19,13 +19,13 @@ categories: swift
 <!-- ------------ -->
 
 {:refdef: style="text-align: center;"}
-![compass](/assets/posts/compass.jpg)
+![compass](/assets/posts/2_enumDescriptions/compass.jpg)
 Image by [David Ledbetter][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
 Documentation is paramount for software development. -[Jokes aside][joke]- well documented libraries and SDKs are fundamental in order to rapidly build well crafted software, otherwise us as coder would be forever rewriting what has already be written just because no one understands what someone else did previously for lack of documentation.
 
-However, the tricky thing with documentation is that it needs special care of its own. Beyond pointing out [spelling errors][] or [providing templates][templates] to speed up documentation process, it's a pretty labor intensive task by itself. Since bad documentation is far less useful than no documentation at all, we need to take it seriously and think well through about what we want to convey in our docs.
+However, the tricky thing with documentation is that it needs special care of its own. Beyond pointing out [spelling errors][spellingErrors] or [providing templates][templates] to speed up documentation process, it's a pretty labor intensive task by itself. Since bad documentation is far less useful than no documentation at all, we need to take it seriously and think well through about what we want to convey in our docs.
 
  So how do we make ourselves the path easier? Some may say that [well-crafted code needs no documentation][noDocBelievers], I personally don't agree with that and even though I'm a little bit lazy in the task myself I do find it easier to document code afterwards when purpose and intent are well expressed.
  
@@ -59,7 +59,7 @@ enum CardinalPoint {
 
 Some red flags here, just to mention a few, are:
 
-- Breaking of [DRY][] principle
+- Breaking of [DRY][DRY] principle
 - Introduce manually typed strings into the mix is **always** an error prone move
 - This doesn't scale later on if, for instance, you want to introduce some combination of NORTHEAST, SOUTHWEST and so forth. 
 

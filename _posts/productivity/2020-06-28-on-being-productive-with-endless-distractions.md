@@ -16,7 +16,7 @@ categories: productivity
 [pause]: https://www.sprintphysio.co.uk/patient-exercises/at-work/pause-exercises.html
 
 {:refdef: style="text-align: center;"}
-![compass](/assets/posts/productivity.jpg)
+![compass](/assets/posts/1_productivityRules/productivity.jpg)
 Image by [Gerd Altmann][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
@@ -32,7 +32,7 @@ done? I'll share some of the habits I follow in order to achieve it.
 ## #1: Limits and boundaries
 In his book [Discipline Equals Freedom: Field Manual][discipline], author and ex Navy SEAL member 
 Jocko Willink talks about how limiting the number of available options and predefining defaults to 
-many mundanes tasks you set yourself free to accomplish your goals. Even thought this is a wild 
+many mundanes tasks set yourself free to accomplish your goals. Even thought this is a wild 
 oversimplification of an entire book, it serve us kick starter to our use case: Just because you 
 have your working machine available at all times doesn't mean you should be _able_ to work at 
 anytime. You need to set yourself (and those around you) a set of boundaries in order to don't get 
