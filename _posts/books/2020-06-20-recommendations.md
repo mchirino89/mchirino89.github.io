@@ -1,7 +1,13 @@
 ---
-layout: page
-title: Books
+layout: post
+title:  "Book recommendations 📚"
+categories: books
 ---
+
+{:refdef: style="text-align: center;"}
+![bookCover](/assets/books/recommendations.jpg)
+{: refdef}
+
 Endless sources of wisdom, if chosen carefully, books are one the most powerful
 tools you can count on. Not only to develop yourself as a professional but as 
 well as a matter of personal growth and mind-broadening, I'll share some books 
@@ -14,7 +20,7 @@ Here's the list in no particular order with a tiny overview of what I think abou
 This book provides a framework for relationship management. Don't let the title fools you, the best way to be effective is having great relationships and developing trust with everyone around you
  
 ### [The Clean Coder: A Code of Conduct for Professional Programmers - Robert C. Martin][cleanCoder]
-This a footprint for the code of conduct each and everyone of us as developers should have. Written by no other that *Uncle Bob* himself, it details scenarios where we as failed to behave professionally and how to address them. It should be mandatory reading for everyone who goes through some form of IT education.
+This is a blueprint for the code of conduct each and everyone of us as developers should have. Written by no other that *Uncle Bob* himself, it details scenarios where we constantly failed to behave professionally and how to address them. It should be mandatory reading for everyone who goes through some form of IT education.
 
 ### [The Software Craftsman: Professionalism, Pragmatism, Pride - Sandro Mancuso][craftsman]
 This one is similar to the above. It goes a little deeper in this whole *Craftsmanship* movement started a little bit afterwards the Agile wave from the early 2000s, explaining how to gain back join and pride in what we do, how we do it and thrive on it as software developers. 
@@ -23,13 +29,13 @@ This one is similar to the above. It goes a little deeper in this whole *Craftsm
 I didn't know they write novels about us developers until I ran into this title by chance 😅 The "funny" thing about this fictional history is all the *déjà vus* you'll have reading it: many similar situations occurs in our everyday jobs that, when seen from far and above, makes little to no sense whatsoever. You'll walk away with several actionable afterwards, trust me.
 
 ### [Zero to One: Notes on Startups, or How to Build the Future - Peter Thiel][0to1]
-Stepping aside from completely technical topics, this way is a game-changer in how one approaches the whole *Eureka: I just figured ___ it out*. Lessons for both the entrepreneur and the investor in us.
+Stepping aside from completely technical topics, this one is a game-changer in how one approaches the whole *Eureka: I just figured ___ (fill the blink with next billion dollar-tech disruptive idea) it out*. Lessons for both the entrepreneur and the investor in us.
  
 ### [The Total Money Makeover: A Proven Plan for Financial Fitness‎ - Dave Ramsey][makeOver]
-Another one of those books that you'd easily pass by in a bookstore (and scratch your head wondering how it ended up in a recommendation list on a technical blog), the title does little justice to it. It explains, sometimes with too many examples, all the ways that incurring in debt will come back and bite you and how the financial has thrive on marketing to make us think otherwise. A gem for putting your house economics in order.
+Another one of those books that you'd easily pass by in a bookstore (and scratch your head wondering how it ended up in a recommendation list on a technical blog), the title does little justice to it. It explains, sometimes with too many examples, all the ways that incurring in debt will come back and bite you and how the financial industry has thrive on marketing to make us think otherwise. A gem for putting your economics at home in order.
 
 ### [Never split the difference: negotiating as if your life depended on it - Chris Voss][neverSplit]
-**Everything in life is a negotiation**. If you didn't know that then congratulation, you just learned your lesson of the day. If you did already but don't necessarily know how to approach any or (in my case) most of these situations, this book is definitively a right fit. Whether in your personal live, with everyday interactions or job/business, you need to be a great negotiator. It's just a fact.
+**Everything in life is a negotiation**. If you didn't know that then congratulation, you just learned your lesson of the day. If you did already but don't necessarily know how to approach any or (in my case) most of these situations, this book is definitively a right fit. Whether in your personal life, with everyday interactions or job/business, you need to be a great negotiator. It's just a fact.
 
 ### [The 4-hours workweek: Escape 9-5, live anywhere and join the new rich - Tim Ferriss][4hour]
 Another on of those book's title you see and think "this is bullshit". Bare with me please, the mindset you must approach this book is the following: other than physics law, everything else is flexible. Whether you're looking to start your own business or simply gain more freedom in your current job, these lessons will come handy in helping you achieve that. 

@@ -22,11 +22,10 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ post.excerpt | strip_html | escape | truncate_words: 75 }}<a href="{{ post.url | relative_url }}"> read more</a>
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
-
 </div>

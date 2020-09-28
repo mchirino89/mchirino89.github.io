@@ -20,8 +20,8 @@ comment. If it's a business/idea topic you can also [find me around](https://www
 with a more serious face 👨🏽‍💻
 
 Right now I'm working on [PedidosYa](https://www.pedidosya.com/). For those of you reading from USA,
-it's like _[DoorDash]_(https://www.doordash.com/en-US) but in Latin America -it's not a claim bold 
-on my behalf: I knew theirs Mobile technical lead in a conference and those were her exact 
+it's like [_DoorDash_](https://www.doordash.com/en-US) but in Latin America -it's not a claim bold 
+on my behalf: I knew theirs [Mobile technical lead in](https://www.linkedin.com/in/laurodriguez7/) a conference and those were her exact 
 same words 😄-
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)

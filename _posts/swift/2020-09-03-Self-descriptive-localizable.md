@@ -2,6 +2,7 @@
 layout: post
 title:  "Descriptive localizable using Swift's enums"
 categories: swift
+excerpt: Swift's Enums are quite powerful; in this post we’ll cover one use case I’m really fond of which are localizables 🇺🇸🇺🇾🇻🇪. 
 ---
 
 [referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1995786

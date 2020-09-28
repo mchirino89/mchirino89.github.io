@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: none
 url: https://geekingwithmauri.github.io
 twitter_username: chirino89m
+twitter_handler: https://www.twitter.com/chirino89m
 github_username: mchirino89
 google_analytics: UA-51645602-3
 
@@ -30,11 +31,11 @@ google_analytics: UA-51645602-3
 markdown: kramdown
 auto_ids: true
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
-page_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
