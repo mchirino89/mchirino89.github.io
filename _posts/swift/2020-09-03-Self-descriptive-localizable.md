@@ -17,7 +17,7 @@ excerpt: Swift's Enums are quite powerful; in this post we’ll cover one use ca
 
 {:refdef: style="text-align: center;"}
 ![compass](/assets/posts/3_localizable/welcomeLocalized.jpg)
-Image by from [Pixabay][referralLink]
+Image from [Pixabay][referralLink]
 {: refdef}
 
 As stated [previously][enumPost] Swift's Enums are quite powerful; in this post we’ll cover one use case I’m really fond of: localizables 🇺🇸🇺🇾🇻🇪. 
