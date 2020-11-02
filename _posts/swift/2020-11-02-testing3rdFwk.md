@@ -10,9 +10,9 @@ excerpt: 3rd party frameworks (and for that matter library as well) increase our
 [testingTalk]: https://developer.apple.com/videos/play/wwdc2018/417/
 [markerDoc]: https://developers.google.com/maps/documentation/ios-sdk/marker
 [mapkitDoc]: https://developer.apple.com/documentation/mapkit
-[spmDoc]: https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app
-[carthageDoc]: https://github.com/Carthage/Carthage
-[podsDoc]: https://cocoapods.org
+[spmDocs]: https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app
+[carthageDocs]: https://github.com/Carthage/Carthage
+[podsDocs]: https://cocoapods.org
 [gMapsDoc]: https://www.raywenderlich.com/7363101-google-maps-ios-sdk-tutorial-getting-started
 [testDouble]: https://martinfowler.com/bliki/TestDouble.html
 [stripAppDelegate]: https://marcosantadev.com/fake-appdelegate-unit-testing-swift/
@@ -68,8 +68,7 @@ So far so good, "what's the problem with this code Mauri?" you might be wonderin
 
 We can use a [spy][testDouble] here to assert proper tracking when the interaction occurs. However the first code smell is in line 14 where we're forced to interact through Google map's delegate directly (actually from line with the framework's `import` statement). This implies either leaving our map view in the view controller publicly accessible or creating a dummy one in the spot in order to satisfy the caller requirement. Not only does this sound cumbersome at best (irresponsible and sloppy at worst) but by definition unit testing should happen in small isolated chunks of code **without** external dependencies (data base queries, network calls or in this case third party frameworks interactions). The very fact that we must add `import GoogleMaps` in our tests is a very strong red flag.
 
-Furthermore, when we take this one step deeper and leaver our tests at the very bare minimum by [stripping the App's main delegate  from being called altogether][stripAppDelegate]
-we get this beautify of an error:
+Furthermore, when we take this one step deeper and leave our tests at the very bare minimum by [stripping the App's main delegate  from being called altogether][stripAppDelegate] we get this beautiful error:
 
 ![noDelegate](/assets/posts/4_3rdPartyTesting/noDelegate.png)
 
