@@ -6,8 +6,10 @@ excerpt: Swift's Enums are quite powerful; in this post we’ll cover one use ca
 ---
 
 [referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1995786
+
 [enumPost]: {% post_url /swift/2020-07-24-self-documented-code-with-flexible-swift-enums %}
 [localizableTalk]: https://developer.apple.com/videos/play/wwdc2019/403/
+
 [localizableDoc]: https://developer.apple.com/documentation/foundation/bundle/1417694-localizedstring
 [propertyObservers]: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
 [DRY]: https://deviq.com/don-t-repeat-yourself/
