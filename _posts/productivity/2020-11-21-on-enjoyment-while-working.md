@@ -7,15 +7,15 @@ excerpt: Coding has been labeled as a stressful job and it is, until certain deg
 
 [referralAutor]: https://www.freepik.com/look-studio
 [referralLink]: https://www.freepik.com/photos/business
-[craftsmanship]: https://www.goodreads.com/book/show/23215733-the-software-craftsman
-[cleanCoder]: https://www.goodreads.com/book/show/10284614-the-clean-coder
+[craftsmanship]: https://amzn.to/3bjGdGp
+[cleanCoder]: https://amzn.to/3dsLuyj
 [greenfield]: https://en.wikipedia.org/wiki/Greenfield_project
 [leadTime]: https://www.investopedia.com/terms/l/leadtime.asp
 [unfair]: https://oliveremberton.com/2014/the-problem-isnt-that-life-is-unfair-its-your-broken-idea-of-fairness/
 [recommendations]: {% post_url /books/2020-06-20-recommendations %}
 [rama]: https://www.linkedin.com/in/ramiro-d%C3%ADaz-ortiz-3bb98245/
-[quote]: https://www.goodreads.com/quotes/29838-there-is-nothing-quite-so-useless-as-doing-with-great
-[pipeline]: https://www.goodreads.com/book/show/35747076-accelerate
+[quote]: https://amzn.to/2Nl2GLm
+[pipeline]: https://amzn.to/2OP56Ch
 [previousPost]: {% post_url /productivity/2020-06-28-on-being-productive-with-endless-distractions %}
 [attentionSpan]: https://dl.motamem.org/microsoft-attention-spans-research-report.pdf
 [easyCode]: https://books.google.com.uy/books?id=ESAZBAAAQBAJ&pg=PT130&lpg=PT130&dq=Robert+Galanakis+the+code+easiest+to+maintain+is+the+code+that+was+never+written&source=bl&ots=lZpoEPV9dx&sig=ACfU3U2nYrV3Afc3snCOmApmYBjEWvRcwg&hl=en&sa=X&ved=2ahUKEwiNs7vH7ZbtAhUIIbkGHdfkAhQQ6AEwBHoECA8QAg#v=onepage&q=the%20code%20easiest%20to%20maintain%20is%20the%20code%20that%20was%20never%20written&f=false

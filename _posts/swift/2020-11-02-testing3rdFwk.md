@@ -17,7 +17,7 @@ excerpt: 3rd party frameworks (and for that matter library as well) increase our
 [testDouble]: https://martinfowler.com/bliki/TestDouble.html
 [stripAppDelegate]: https://marcosantadev.com/fake-appdelegate-unit-testing-swift/
 [noBrainer]: https://stackoverflow.com/a/40582153/2376336
-[cleanArchitecture]: https://www.goodreads.com/book/show/18043011-clean-architecture
+[cleanArchitecture]: https://amzn.to/3pBb9Hs
 [breakingMonolith]: https://easy-software.com/en/newsroom/microservices-vs-monolith-a-paradigm-shift-in-software-development/
 [colleague]: https://www.linkedin.com/in/sebastian-gonzalez-anastas%C3%ADa-46559548/
 [facadeWiki]: https://en.wikipedia.org/wiki/Facade_pattern

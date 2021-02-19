@@ -8,7 +8,7 @@ categories: books
 [micro]: https://www.investopedia.com/terms/m/micro-manager.asp
 [ferriss]: https://tim.blog/2018/01/04/how-to-handle-information-overwhelm-and-social-media/
 [peya]: https://medium.com/latam-list/pedidosya-launches-online-supermarket-8641581dc879
-[manager]: https://www.goodreads.com/book/show/33369254-the-manager-s-path
+[manager]: https://amzn.to/3durZVN
 [author]: https://www.oreilly.com/people/camille-fournier/
 [jargon]: https://www.business.com/articles/cut-the-code-why-speaking-in-technical-jargon-is-not-making-you-look-smarter/
 [1_1]: https://www.radicalcandor.com/effective-one-on-ones/

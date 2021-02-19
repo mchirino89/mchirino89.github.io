@@ -2,7 +2,7 @@
 layout: post
 title:  "A leap of faith? Incursion into mobile development"
 excerpt: Feeling tempted by mobile development but not sure if you're prepared, let alone whether it IS the right fit for you? Let's look into some common misconceptions some folks might have related to this wonderful development path.
-categories: work, mobile, development 
+categories: work
 ---
 
 [referralAutor]: https://pixabay.com/users/firmbee-663163/
@@ -25,8 +25,7 @@ categories: work, mobile, development
 [salary]: https://www.glassdoor.com/Salaries/it-salary-SRCH_KO0,2.htm
 [debt]: https://www.thebalance.com/five-spending-habits-that-lead-to-debt-960042
 [inapp]: https://sensortower.com/blog/app-revenue-and-downloads-2020
-[lenovo]: https://www.amazon.com/gp/product/B0751B5G6Z/ref=as_li_tl?ie=UTF8&tag=geekingwithma-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0751B5G6Z&linkId=50b95ce14c2de16f818225849c238048
-[macmini]: https://www.amazon.com/gp/product/B075JRNXCH/ref=as_li_tl?ie=UTF8&tag=geekingwithma-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B075JRNXCH&linkId=57f176aa0c861fc3ca7190fe7d3258bf
+[macmini]: https://amzn.to/3ufyJgb
 [license]: https://developer.apple.com/programs/
 [mystickers]: https://apps.apple.com/uy/app/mystickers/id884352968?l=es
 [ego]: https://amzn.to/3blgrl1
@@ -76,9 +75,9 @@ Your situation could very well be different and your context (income, personal/f
 - We spend [so much of our income][debt] on unsatisfying, short-term "happiness" stuff that's almost unreal when we actually figure out where our money is going. In case you aren't keen with budgets, start simple: cut on easy to avoid expenditure first such as casual food treat you take everyday -yeah, I'm talking about that $5 coffee from the famous coffee chain with the siren- and holding on for awhile on [mobile gaming expenses][inapp] are good examples for starters.
 - For a quick bootstrap, you might sacrifice mobility over price and start grounded with a [Mac Mini][macmini]. That's what I used during my internship and besides the occasional hiccup, it worked just fine. This will dependen on your patience level.
 
-My advise on the topic above is to keep your eyes on the price and eventually you'll be able to upgrade to a newer machine that will be paid by earnings produced on the previous one.
+My two cents on the topic above is to keep your eyes on the price and eventually you'll be able to upgrade to a newer machine that will be paid by earnings produced on the previous one.
 
-## You have to pay ~~taxes~~ developer license
+## You have to pay developer's ~~taxes~~ license
 
 *Reply: only for real device deploys and eventual distribution on personal projects*
 

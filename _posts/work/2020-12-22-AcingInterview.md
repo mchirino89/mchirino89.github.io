@@ -17,13 +17,13 @@ excerpt: job hunting doesn't have to be a dreadful endeavor for an iOS developer
 [arc]: https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html
 [lifecycle]: https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/WorkWithViewControllers.html
 [valueType]: https://developer.apple.com/swift/blog/?id=10
-[gamma]: https://www.goodreads.com/book/show/85009.Design_Patterns?ac=1&from_search=true&qid=kUEBUgDKqD&rank=1
+[gamma]: https://amzn.to/3samWy8
 [document]: {% post_url /swift/2020-07-24-self-documented-code-with-flexible-swift-enums %}
 [tests]: {% post_url /swift/2020-11-02-testing3rdFwk %}
 [gonza]: https://www.linkedin.com/in/gonzalo-diz/
 [xcodeError]: https://stackoverflow.com/questions/50718018/xcode-10-error-multiple-commands-produce
 [mbp]: https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-2.6ghz-6-core-processor-512gb?part=MVVJ2LL/A#
-[cleanCoder]: https://www.goodreads.com/book/show/10284614-the-clean-coder
+[cleanCoder]: https://amzn.to/3dsLuyj
 [statista]: https://www.statista.com/statistics/967095/worldwide-it-industry-growth-rate-forecast-segment/
 
 {:refdef: style="text-align: center;"}

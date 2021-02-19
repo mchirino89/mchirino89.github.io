@@ -4,6 +4,16 @@ title:  "Book recommendations 📚"
 categories: books
 ---
 
+[habits]: https://amzn.to/2Ztgead
+[cleanCoder]: https://amzn.to/3dsLuyj
+[craftsman]: https://amzn.to/3bjGdGp
+[makeOver]: https://amzn.to/3pyROGL
+[phoenix]: https://amzn.to/3k3OAK6
+[0to1]: https://amzn.to/3pAuTuK
+[neverSplit]: https://amzn.to/3ax1ai3
+[4hour]: https://amzn.to/3brpiC6
+[freakonomics]: https://amzn.to/3s6A8ny
+
 {:refdef: style="text-align: center;"}
 ![bookCover](/assets/books/recommendations.jpg)
 {: refdef}
@@ -47,24 +57,4 @@ Last, but definitively not least, I highly recommend this book, the only from th
 
 A real brain-broadening experience awaits for you with the thesis the authors expose in these pages.
 
-Do you have a book to recommend? Feel free to reach me out on [Twitter][twitter] and I'll take a look to see if it makes the cut 😉
-
-[twitter]: https://www.twitter.com/chirino89m 
-
-[habits]: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People?ac=1&from_search=true&qid=BBrZPfq06f&rank=1
-
-[cleanCoder]: https://www.goodreads.com/book/show/10284614-the-clean-coder?ac=1&from_search=true&qid=ss9QsPBQgz&rank=2
-
-[craftsman]: https://www.goodreads.com/book/show/23215733-the-software-craftsman?ac=1&from_search=true&qid=BHjVvyhcEl&rank=2
-
-[makeOver]: https://www.goodreads.com/book/show/78427.The_Total_Money_Makeover?ac=1&from_search=true&qid=QdBjMZTXoa&rank=1
-
-[phoenix]: https://www.goodreads.com/book/show/17255186-the-phoenix-project?ac=1&from_search=true&qid=9Dl90spdWq&rank=1
-
-[0to1]: https://www.goodreads.com/book/show/18050143-zero-to-one?ac=1&from_search=true&qid=YeDhHsMA8G&rank=1
-
-[neverSplit]: https://www.goodreads.com/book/show/26156469-never-split-the-difference?ac=1&from_search=true&qid=GxW6k8LUwV&rank=1
-
-[4hour]: https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek?ac=1&from_search=true&qid=2v317XSGT0&rank=3
-
-[freakonomics]: https://www.goodreads.com/book/show/1202.Freakonomics?ac=1&from_search=true&qid=F1hsIajew7&rank=1
+Do you have a book to recommend? Feel free to reach me out and I'll take a look to see if it makes the cut 😉

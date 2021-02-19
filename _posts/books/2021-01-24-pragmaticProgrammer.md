@@ -6,7 +6,7 @@ categories: books
 ---
 
 [peya]: https://medium.com/latam-list/pedidosya-launches-online-supermarket-8641581dc879
-[pragmatic]: https://www.goodreads.com/book/show/52715562-the-pragmatic-programmer
+[pragmatic]: https://amzn.to/3axuYei
 [authors]: https://gotopia.tech/bookclub/episodes/pragmatic-programmer-in-2020
 
 [review]: {% post_url /books/2020-09-15-managersPath %}
