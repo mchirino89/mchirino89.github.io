@@ -2,7 +2,8 @@
 layout: post
 title:  "Self documented code with flexible Swift enums"
 categories: swift
-excerpt: Documentation needs special care of its own. Since bad documentation is far less useful than no documentation at all, how do we make ourselves the path easier?
+excerpt: Since bad documentation is far less useful than no documentation at all, how do we make ourselves the path easier?
+tags: [swift, coding, documentation, testing]
 ---
 
 [referralAutor]: https://pixabay.com/es/users/daledbet-14607822/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683

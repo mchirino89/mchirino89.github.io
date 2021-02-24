@@ -2,7 +2,8 @@
 layout: post
 title:  "On Testing 3rd party frameworks without losing your hair 🤯"
 categories: swift
-excerpt: 3rd party frameworks (and for that matter library as well) increase our productivity by handing us canned-flexible features. However this black box behavior shouldn't allow our code to be at the mercy of unknown side effects, let alone prevent us from covering it with proper testing.
+excerpt: Do you skip testing the part of your code base that involve 3rd party frameworks?
+tags: [swift, coding, framework, testing]
 ---
 
 [referralAutor]: https://pixabay.com/es/users/jeshoots-com-264599/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3087585

@@ -3,6 +3,7 @@ layout: post
 title: "Being productive with endless \"free\" distractions"
 categories: productivity
 excerpt: How can we manage all the buzz, interruptions and life's context in general and still get things done?
+tags: [productivity, coding, work]
 ---
 
 [referralAutor]: https://pixabay.com/es/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1995786

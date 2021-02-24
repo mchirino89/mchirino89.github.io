@@ -2,6 +2,9 @@
 layout: post
 title:  "Book recommendations 📚"
 categories: books
+excerpt: Evergreen knowledge in the form of books, this is a small glimpse 
+tags: [books, personal, tech, IT, coding]
+author: Mauricio Chirino
 ---
 
 [habits]: https://amzn.to/2Ztgead

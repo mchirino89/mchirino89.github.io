@@ -2,7 +2,8 @@
 layout: post
 title: "Acing(ish) your iOS interview"
 categories: work
-excerpt: job hunting doesn't have to be a dreadful endeavor for an iOS developer. Let me show you what I mean
+excerpt: Job hunting doesn't have to be a dreadful endeavor for an iOS developer. Let me show you what I mean
+tags: [work, coding, job, interview]
 ---
 
 [resolutions]: https://www.nytimes.com/guides/smarterliving/resolution-ideas

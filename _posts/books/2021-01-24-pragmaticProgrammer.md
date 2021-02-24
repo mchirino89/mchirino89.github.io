@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "📖 Books I've read: The Pragmatic Programmer (by  David Thomas & Andrew Hunt)"
-excerpt: There's a fine line between thinking quick on your feet and being reckless while coding. "Pragmatism" is an appropriate term for such mindset and this book goes deep into guiding programmers to such state.
+excerpt: There's a fine line between thinking quick on your feet and being reckless while coding.
 categories: books
+tags: [books, developer, software, coding, tech]
 ---
 
 [peya]: https://medium.com/latam-list/pedidosya-launches-online-supermarket-8641581dc879

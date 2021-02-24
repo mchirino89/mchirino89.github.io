@@ -256,6 +256,10 @@
 
 // ------ Personalization starts here ---------
 
+.reading-time {
+  float: right;
+}
+
 .buy-me-coffe-button {
   height: 44px !important;
   width: calc(height * 3.6166666) !important;

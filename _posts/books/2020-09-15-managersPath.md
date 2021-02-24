@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "📖 Books I've read: The manager's path (by  Camille Fournier)"
-excerpt: Do we (as developers) know what it takes/makes a decent manager? It seems a rather easy one to answer but looking into our collective experience, it turns out most of us have had to deal with a fair amount of bad management during our careers.
+excerpt: Do we (as developers) know what it takes/makes a great manager? 
 categories: books
+tags: [books, management, tech, IT]
 ---
 
 [micro]: https://www.investopedia.com/terms/m/micro-manager.asp

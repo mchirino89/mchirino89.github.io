@@ -2,7 +2,8 @@
 layout: post
 title: "5 key points in enjoying writing code for a living"
 categories: productivity
-excerpt: Coding has been labeled as a stressful job and it is, until certain degree, an intense heavy, taxing-brain endeavor. That being said, beware not to incur in self-sabotaging practices.
+excerpt: Coding is labaled as stressful and an intense heavy taxing-brain endeavor. It doesn't have to be.
+tags: [coding, work, tech]
 ---
 
 [referralAutor]: https://www.freepik.com/look-studio
