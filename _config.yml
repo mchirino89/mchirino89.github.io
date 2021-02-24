@@ -16,8 +16,7 @@
 title: Geeking with Mauri
 email: contact@geekingwithmauri.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I created this blog in order to document what I learn along the way. You're more than welcome 
-  to comment and point out any mistakes or alternative approach you might think of for my proposals.
+  You're more than welcome to point out any mistakes or alternative approach you might think of for.
   The main goal is for all of us to educate each other ☺️🤓
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: none

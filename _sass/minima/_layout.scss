@@ -254,7 +254,33 @@
   }
 }
 
+// ------ Personalization starts here ---------
+
 .buy-me-coffe-button {
-  height: 60px !important;
-  width: 217px !important;
+  height: 44px !important;
+  width: calc(height * 3.6166666) !important;
+}
+
+.about-picture {
+  float: right; 
+  margin: 0 0 5% 5%; 
+  width: clamp(100px, 200px, 50%);
+} 
+
+.about-picture img {
+  border-radius: 50%;
+}
+
+figcaption {
+  color: var(--light-text-color);
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.25 !important;
+}
+
+h2, h3, h4, h5, h6 {
+  line-height: 1.5 !important;
 }

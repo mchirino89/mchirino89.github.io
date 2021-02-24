@@ -2,13 +2,17 @@
   <div class="wrapper">
     {%- include sponsor.html -%}
     <br>
+
     <div class="footer-col-wrapper">
-      <div class="footer-col">
+      <div class="footer-col footer-col-1">
+       <p>{{ site.description | escape }}</p>
+      </div>
+      <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
       {%- include contact.html -%}
-      
     </div>
+
     {%- if site.disqus.shortname and page.date -%}
       {%- include disqus_comments.html -%}
     {%- endif -%}

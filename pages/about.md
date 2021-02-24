@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+{%- include avatar.html -%}
+
 I've been writing code since 2007 and getting paid for it since 2013 (outside of college), 
 a bit over a year since getting my BS in software engineering from [UNET](http://www.unet.edu.ve/).
 
@@ -14,11 +16,17 @@ something wrong.
 
 Beyond that, I like reading ([A LOT](https://www.goodreads.com/user/show/95758480-mauricio-chirino)), 
 also collaborate and [give back](https://stackoverflow.com/users/2376336/mauricio-chirino) 
-to the community when time and family obligation allow me to. Feel free to 
+to the community when time and family obligations allow me to. Feel free to 
 [reach me out](https://github.com/mchirino89) or leave some [comment](https://twitter.com/Chirino89M). If it's a business/idea topic you can also [find me around](https://www.linkedin.com/in/mauriciochirino/)
 with a more serious face 👨🏽‍💻
 
 Right now I'm working on [PedidosYa](https://www.pedidosya.com/). For those of you reading from USA,
-it's like [_DoorDash_](https://www.doordash.com/en-US) but in Latin America -it's not a claim bold 
+it's like [_DoorDash_](https://www.doordash.com/en-US) but in Latin America -it's not a bold claim 
 on my behalf: I knew theirs [Mobile technical lead in](https://www.linkedin.com/in/laurodriguez7/) a conference and those were her exact 
 same words 😄-
+
+## My résumé?
+
+Need a PDF version of my CV? No problem: download it {%- include cvDownloadable.html -%}
+
+Cheers!
