@@ -16,11 +16,13 @@
 title: Geeking with Mauri
 email: contact@geekingwithmauri.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You're more than welcome to point out any mistakes or alternative approach you might think of for.
   The main goal is for all of us to educate each other ☺️🤓
+  You're more than welcome to point out alternative approaches you might think for anything you read here.
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: none
 url: https://geekingwithmauri.com
+author: Mauricio Chirino
+picture: /assets/resources/profile.png
 twitter_username: chirino89m
 twitter_handler: https://www.twitter.com/chirino89m
 github_username: mchirino89
@@ -39,6 +41,16 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+- scope:
+    path: ""
+  values:
+    image: /assets/resources/logo.png
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

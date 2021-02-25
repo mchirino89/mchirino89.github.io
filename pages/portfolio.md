@@ -28,9 +28,9 @@ Here's a little sample of my work
 
 This is probably the first idea of an I ever developed for publication back in 2014 (it has evolved since). The premise of the app is simple: instead of keep losing paper lists with your missing sticker numbers from an album your completing (may that be for the [latest soccer cup tournament][soccer], an [Avenger's movie][avengers], etc), choose to use MyStickers for such task. It allows for quick sorting and searching as well as sharing the list with other users using a QR code.
 
-| Light mode | Dark mode | iPad support |
-|------------|-----------|--------------|
-| ![][light] | ![][dark] | ![][iPad]    |
+| Light mode           | Dark mode          | iPad support             d |
+|----------------------|--------------------|--------------------------|
+| ![light mode][light] | ![Dark mode][dark] | ![iPad support][iPad]    |
 
 Feel free to [check it out][stickers].
 
@@ -44,7 +44,7 @@ This one is my most recent experiment/hobby project and I chose a basic API for 
 - It features dark mode and full accessibility support ([dynamic fonts][dynamic]) on all its text
 - The repo is setup with a basic flow for continues integration via [Github actions][ci]
 
-![][RickAndMortyImage]
+![Rick and Morty][RickAndMortyImage]
 
 More details of it [here][RMRepo]
 
@@ -54,7 +54,7 @@ This blog itself is a sample of my work. While young -I started it in mid 2020-,
 
 It's simple yet functional: responsive and lightweight 😄
 
-![][blogImage]
+![blog cover][blogImage]
 
 ---
 

@@ -1,4 +1,4 @@
-# geekingwithmauri.github.io
-Personal blog about programming and my professional life in general.
+# geekingwithmauri.com
+Blog about strees free coding 
 
-You can check it out [here](https://geekingwithmauri.github.io/)
+You can check it out [here](https://geekingwithmauri.com/)

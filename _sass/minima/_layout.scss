@@ -8,7 +8,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
-}
+} 
 
 .site-title {
   @include relative-font-size(1.625);
@@ -287,4 +287,21 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   line-height: 1.5 !important;
+}
+
+.relatedPosts {
+  border-top: 3px solid #333;
+  padding-top: 15px;
+  margin:0 auto;
+}
+
+.rel {
+  width: 250px;
+  display: inline-block;
+  padding: 8px;
+  opacity: 0.8;
+}
+
+.rel hover {
+  opacity: 1;    
 }
