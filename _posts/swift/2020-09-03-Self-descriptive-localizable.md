@@ -31,7 +31,7 @@ As stated [previously][enumPost] Swift's Enums are quite powerful; in this post 
 
 Let's see what I mean in a short example: the *safest* way to use localizables is via [`localizedString`][localizableDoc] API, which requires you to have a set of **Localizable.strings** files with the desired key/values for the supported languages. 
 
-![]({{ site.url }}/assets/posts/3_localizable/englishLocalized.jpg)  |  ![]({{ site.url }}/assets/posts/3_localizable/spanishLocalized.jpg)
+![english localizable]({{ site.url }}/assets/posts/3_localizable/englishLocalized.jpg)  |  ![spanish localizable]({{ site.url }}/assets/posts/3_localizable/spanishLocalized.jpg)
 English strings | Spanish strings |
 
 Afterwards you'd use any of said keys within code like so:
@@ -44,7 +44,7 @@ Afterwards you'd use any of said keys within code like so:
 }
 {% endhighlight %}
 
-![]({{ site.url }}/assets/posts/3_localizable/englishSim.jpg)  |  ![]({{ site.url }}/assets/posts/3_localizable/spanishSim.jpg)
+![english sim]({{ site.url }}/assets/posts/3_localizable/englishSim.png)  |  ![spanish sim]({{ site.url }}/assets/posts/3_localizable/spanishSim.png)
 English caption | Spanish caption |
 
 (*disclaimer*: you don't necessarily have to set your localizable UI text via [property observers][propertyObservers], I did this way in order to compact the code snippet as much as possible)
@@ -143,16 +143,16 @@ enum Translation: String, Localizable {
 
 You can test this manually going into the simulator configuration -> General -> Language & Region -> iPhone Language and selecting the proper one for each set of regression... Or you can let Xcode spares you the process 😄
 
-Create a new scheme |
-![]({{ site.url }}/assets/posts/3_localizable/addScheme.jpg) |
-Set it up with the desired language for the tests (Spanish in our case 🇪🇸) |
-![]({{ site.url }}/assets/posts/3_localizable/schemeSetup.jpg) |
-You should be good to go when you see this (I tweaked scheme's names in order to avoid confusion) |
-![]({{ site.url }}/assets/posts/3_localizable/schemeEndgame.jpg) |
+1_ Create a new scheme |
+![add scheme]({{ site.url }}/assets/posts/3_localizable/addScheme.jpg) |
+2_ Set it up with the desired language for the tests (Spanish in our case 🇪🇸) |
+![scheme setup]({{ site.url }}/assets/posts/3_localizable/schemeSetup.jpg) |
+3_ You should be good when you see this (I tweaked scheme's names in order to avoid confusion) |
+![scheme final result]({{ site.url }}/assets/posts/3_localizable/schemeEndgame.jpg) |
 
 Testing localization is straight forward thanks to the default behavior of `NSLocalizedString` API which states that in case the requested value doesn't exist inside the table of localized values declared (.strings file created at the beginning of the post) then the same key will be returned as a string. Let me show you what I mean with a failing test:
 
-![]({{ site.url }}/assets/posts/3_localizable/failingTest.png) |
+![failing test]({{ site.url }}/assets/posts/3_localizable/failingTest.png) |
 Failed for Spanish scheme since the default value isn't expected (remember we defined a value for said key earlier) |
 
 Finally a single passing test for both scheme could be this one:

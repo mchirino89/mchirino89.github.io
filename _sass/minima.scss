@@ -10,14 +10,30 @@ $base-line-height: 2.25 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+// Light mode
+@media (prefers-color-scheme: light) {
+	:root {
+		--text-color:       #111;
+		--background-color: #fdfdfd;
+		--brand-color:      #2a7ae2;
+		--grey-color:       #828282;
+	}
+}
 
+// Dark mode
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color:       rgba(255,255,255,.87);
+		--background-color: #1b181e;
+		--brand-color:      rgb(90, 200, 250);
+		--grey-color:       rgba(255,255,255,.6);
+	}
+}
+
+
+$grey-color-light: #e8e8e8;
+$grey-color-dark:  #424242;
 $table-text-align: left !default;
 
 // Width of the content area
