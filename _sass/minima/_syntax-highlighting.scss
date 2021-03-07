@@ -7,17 +7,20 @@
   @media (prefers-color-scheme: light) {
     --code-background-color: #eef;
     --keyword-type: #458;
+    --flag-color: #000080;
   }
   // Dark mode
   @media (prefers-color-scheme: dark) {
     --code-background-color: #1e1f24;
     --keyword-type: #5dd7fe;
+    --flag-color: #0086B3;
   }
+
   background-color: var(--code-background-color);
 
   @extend %vertical-rhythm;
   .highlighter-rouge & {
-    background: #eef;
+    background: var(--code-background-color);
   }
 
   /**
@@ -151,7 +154,7 @@
     color: #555
   } // Name.Namespace
   .nt {
-    color: #000080
+    color: var(--flag-color);
   } // Name.Tag
   .nv {
     color: #008080
