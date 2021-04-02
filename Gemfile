@@ -8,7 +8,7 @@ group :development, :test do
   gem "rack-jekyll"
   gem "rack", ">= 2.1.4"
   gem "pry"
-  gem "kramdown", ">= 2.3.0"
+  gem "kramdown", ">= 2.3.1"
 
 
 end
