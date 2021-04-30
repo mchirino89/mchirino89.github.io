@@ -123,7 +123,7 @@ final class CardinalPointTestCases: XCTest {
 }
 {% endhighlight %}
 
-At this point you're probably thinking "Mauri is full of sh!7, I ended up repeating myself all over the place 💩🤬" and you'd be right. This sets off all of our red flags previously stablished. Remember how I mentioned Swift's enumerations are really powerful? Well turns out there's a protocol that can helps us iterate over each of our cases in a loop manner. I'm talking about [`CaseIterable`][iterable], which was introduces back in Swift version 4.2. In a nutshell: it synthesizes all of our declared cases in a collection, providing us a way to loop it via `.allCases` properties. Let's see how this applies in our tests:
+At this point you're probably thinking "Mauri is full of sh!7, I ended up repeating myself all over the place 💩🤬" and you'd be right. This sets off all of our red flags previously stablished. Remember how I mentioned Swift's enumerations are really powerful? Well, it turns out there's a protocol that can helps us iterate over each of our cases in a loop manner. I'm talking about [`CaseIterable`][iterable], which was introduced back in Swift version 4.2. In a nutshell: it synthesizes all of our declared cases in a collection, providing us a way to loop it via the `.allCases` property. Let's see how this applies in our tests:
 
 First let's conform to the protocol like so:
 
