@@ -11,6 +11,7 @@ tags: [swift, documentation, CI, work, tech]
 [referralLink]: https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1614223
 
 [jazzy]: https://github.com/realm/jazzy
+[realm]: https://github.com/realm
 [net]: https://github.com/mchirino89/MauriNet
 [brew]: https://brew.sh
 [rbenv]: https://github.com/rbenv/rbenv
@@ -32,9 +33,9 @@ Image by [Ag Ku][referralAutor] from [Pixabay][referralLink]
 
 > “Without Knowledge, action is useless and knowledge without action is futile.” ― Abu Bakr
 
-If you ended up here, chances are you know you should document your code and currently aren't doing it. Well, let me tell you it's not enough to document it, this information **MUST** be easily accesible by anyone who wants to use it. But on the bright side, the fact that you're here instead of procrastinating in Twitter or elsewhere shows progress on your behalf. Good for you 👏🏽
+If you ended up here, chances are you know you should document your code and currently aren't doing it. Well, let me tell you it's not enough to document it, this information **MUST** be easily accesible by anyone who wants to use it. But on the bright side, the fact that you're here instead of procrastinating in Twitter shows progress on your behalf. Good for you 👏🏽
 
-On the other hand, if you're still uncertain about documenting regularly (you might even think you write code so well it documents itself), then please bare with me while I make my case. This post will be break down into sections so feel free to skip ahead into a specific one for your needs
+On the other hand, if you're still uncertain about documenting regularly (you might even think you write code so well it documents itself), then please bare with me while I make my case. This post will be broken down into sections so feel free to skip ahead into a specific one, depending on your needs
 
 - [Why documenting matters](#why-documenting-matters)
 - [How to do it effectively](#how-to-do-it-effectively)
@@ -56,6 +57,8 @@ If nothing else, do it as a favor to your future self
 ## Using jazzy for the job
 
 We established above documentation must be foundable beyond your IDE, in other words anyone in need for any of your APIs shouldn't have to go through the source code of them necessarily in order to consume them properly. So how do we achieve this? One way is using a great tool built specifically for this task: [Jazzy][jazzy].
+
+Jazzy is a command-line utility maintained by the folks of [realm][realm] that generates documentation for Swift and Objective-C, directly from  both source code and compiled modules. It dumps all that generated docs into a well formatted static site that resembles Apple's official documentation styling.
 
 ### Prerequisites
 
@@ -109,11 +112,21 @@ $ gem env home
 If above output is pointing to your system default Ruby version, it shouldn't. That's the entire reason we took all the trouble in setting up **rbenv** in the first place, but things sometimes go wrong. What [solves][rbenvHack] it for me was rehashing.
 
 {% highlight shell %}
+$ rbenv rehash
+{%- endhighlight -%}
+
+Now you should see some form of your user path from the output of the command below:
+{% highlight shell %}
 $ gem env home
 # => ~[your_username]/.rbenv/versions/<ruby-version>/lib/ruby/gems/...
 {%- endhighlight -%}
 
-Now we define our [Gemfile][gemfile] with our desired gems in it.
+We define our [Gemfile][gemfile] with our desired gems in it.
+```
+source "https://rubygems.org"
+
+gem "jazzy"
+```
 
 ### Setup
 Setting up Jazzy is dirt simple: 
@@ -123,10 +136,31 @@ $ gem install jazzy
 
 > In case you want to avoid messing directly with *sudo* permissions in order to modify your system files –which I recommend against if you're not COMPLETELY sure what you're doing–, I'd suggest following the above steps detailed in the [prerequisites](#prerequisites) section.
 
-
+The command `jazzy` should now be available in your terminal. All that's left now is executing it with proper set of flags configured for our case. 
 
 ## Use case in practice
 
 I followed the steps above in order to generate the documentation you see in  [MauriNet][net]. This is a Networking wrapper I built around Swift's native URLSession so it wouldn't be necessary to add third party dependencies for simple `GET`/`POST` requests and skipping the boilerplate ceremony each time I'd have to use it.
 
 Please go ahead and check it out. Feedback is not only welcome but encouraged, I'll be delighted to receive pull requests in this and any of my other repos.
+
+The entire command executed looks like this:
+
+{% highlight shell %}
+$ jazzy \
+--clean \
+--author "mauricio chirino" \
+--author_url https://geekingwithmauri.com \
+--github_url https://github.com/mchirino89/maurinet \
+--disable-search \
+--skip-undocumented 
+{%- endhighlight -%}
+
+Since the line would have been too long to fit in a single snapshot, I specified new lines between each of the flags using `\` for the sake of explaining. Let's see what each of them means:
+
+- `clean:` delete any previous output before generating the new one.
+- `author:` who's behind this documentation.
+- `author_url:` where can this person (or company) be found.
+- `github_url:` project's Github repo.
+- `disable-search:` this skips generating a search bar for the site. I found it confusing to use since the results were plain json.
+- `skip-undocumented:` avoids generating doc for undocumented code.
