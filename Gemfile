@@ -9,8 +9,6 @@ group :development, :test do
   gem "rack", ">= 2.1.4"
   gem "pry"
   gem "kramdown", ">= 2.3.1"
-
-
 end
 
 # Hello! This is where you manage which Jekyll version is used to run.
