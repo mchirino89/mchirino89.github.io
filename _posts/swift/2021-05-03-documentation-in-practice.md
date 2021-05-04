@@ -12,7 +12,8 @@ tags: [swift, documentation, CI, work, tech]
 
 [jazzy]: https://github.com/realm/jazzy
 [realm]: https://github.com/realm
-[net]: https://github.com/mchirino89/MauriNet
+[net]: https://github.com/GeekingwithMauri/MauriNet
+[netDoc]: https://geekingwithmauri.github.io/MauriNet/
 [brew]: https://brew.sh
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyDebate]: https://metova.com/choosing-a-ruby-version-management-tool-rbenv-vs-rvm/
@@ -23,6 +24,7 @@ tags: [swift, documentation, CI, work, tech]
 [rbenvHack]: https://github.com/rbenv/rbenv/issues/879#issuecomment-359284790
 [ari]: https://www.linkedin.com/in/ariel-demarco-a4b34aa0/
 [gemfile]: https://bundler.io/v2.2/gemfile.html#gemfiles
+[docInspiration]: https://nshipster.com/swift-documentation/
 
 <!-- ------------ -->
 
@@ -47,12 +49,20 @@ On the other hand, if you're still uncertain about documenting regularly (you mi
 With no further do, let's dive in!
 
 ## Why documenting matters
-If nothing else, do it as a favor to your future self
+If nothing else, do your future self a favour. 
+
+Writing good documentation is easier than ever nowadays. There are tons of great resources out there guiding us step by step on how to format out docs such as [this one][docInspiration].
+
+Xcode even provide us the appropriate template we set the cursor on the name of our protocols/classes/structs and hit <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>/</kbd>
 
 ## How to do it effectively
 
 - It must answer what a piece of code does, not necessary how (at least not in depth): What do I mean by this? If I'm going to use a `sorting` method I might not need to know (or even care for that matter) what type of algorithm is used for that task.
 - Document only what's going to be used by the outside world: it's a myth that every single line of code should be documented. There are better uses for your time so invest it where it counts.
+- Show, don't tell: this is one of those golden rules of writing. Don't limit your documentation to a bunch of technical jargon, **show** examples of usage and use cases.
+
+Show  | Don't tell
+sffsd | sdfdsfdf |
 
 ## Using jazzy for the job
 
@@ -140,7 +150,7 @@ The command `jazzy` should now be available in your terminal. All that's left no
 
 ## Use case in practice
 
-I followed the steps above in order to generate the documentation you see in  [MauriNet][net]. This is a Networking wrapper I built around Swift's native URLSession so it wouldn't be necessary to add third party dependencies for simple `GET`/`POST` requests and skipping the boilerplate ceremony each time I'd have to use it.
+I followed the steps above in order to generate [the documentation][netDoc] you see for [MauriNet][net]. This is a Networking wrapper I built around Swift's native URLSession so it wouldn't be necessary to add third party dependencies for simple `GET`/`POST` requests and skipping the boilerplate ceremony each time I'd have to use it.
 
 Please go ahead and check it out. Feedback is not only welcome but encouraged, I'll be delighted to receive pull requests in this and any of my other repos.
 
@@ -163,4 +173,4 @@ Since the line would have been too long to fit in a single snapshot, I specified
 - `author_url:` where can this person (or company) be found.
 - `github_url:` project's Github repo.
 - `disable-search:` this skips generating a search bar for the site. I found it confusing to use since the results were plain json.
-- `skip-undocumented:` avoids generating doc for undocumented code.
+- `skip-undocumented:` avoids generating doc for undocumented code. Really useful to hide work in progress within your modules/frameworks.
