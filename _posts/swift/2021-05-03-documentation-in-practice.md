@@ -14,22 +14,28 @@ tags: [swift, documentation, CI, work, tech]
 [realm]: https://github.com/realm
 [net]: https://github.com/GeekingwithMauri/MauriNet
 [netDoc]: https://geekingwithmauri.github.io/MauriNet/
+[netRoot]: https://github.com/GeekingwithMauri/MauriNet/tree/main/docs
 [brew]: https://brew.sh
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyDebate]: https://metova.com/choosing-a-ruby-version-management-tool-rbenv-vs-rvm/
 [rvm]: https://rvm.io
 [security]: https://rvm.io/rvm/security
 [zsh]: https://ohmyz.sh
+[quicksort]: https://en.wikipedia.org/wiki/Quicksort
 [bundler]: https://bundler.io
 [rbenvHack]: https://github.com/rbenv/rbenv/issues/879#issuecomment-359284790
 [ari]: https://www.linkedin.com/in/ariel-demarco-a4b34aa0/
 [gemfile]: https://bundler.io/v2.2/gemfile.html#gemfiles
+[collectionView]: https://developer.apple.com/documentation/uikit/uicollectionview
+[snapshot]: https://github.com/pointfreeco/swift-snapshot-testing
 [docInspiration]: https://nshipster.com/swift-documentation/
+[swiftMarkup]: https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html#//apple_ref/doc/uid/TP40016497-CH2-SW1
+[ghPage]: https://pages.github.com
 
 <!-- ------------ -->
 
 {:refdef: style="text-align: center;"}
-![compass](/assets/posts/11_documentation/cover.jpg)
+![compass](/assets/posts/10_documentation/cover.jpg)
 Image by [Ag Ku][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
@@ -40,33 +46,49 @@ If you ended up here, chances are you know you should document your code and cur
 On the other hand, if you're still uncertain about documenting regularly (you might even think you write code so well it documents itself), then please bare with me while I make my case. This post will be broken down into sections so feel free to skip ahead into a specific one, depending on your needs
 
 - [Why documenting matters](#why-documenting-matters)
+- [What is good documentation?](#what-is-good-documentation)
 - [How to do it effectively](#how-to-do-it-effectively)
 - [Using jazzy for the job](#using-jazzy-for-the-job)
-	- 	[Prerequisites](#prerequisites)
+	-  [Prerequisites](#prerequisites)
 	-  [Setup](#setup)
 - [Use case in practice](#use-case-in-practice)
+- [Make it findable](#make-it-findable)
+- [Final thoughts](#final-thoughts)
 
 With no further do, let's dive in!
 
 ## Why documenting matters
-If nothing else, do your future self a favour. 
+If nothing else, do your future self a favor. Chances are you're going to spend 
 
-Writing good documentation is easier than ever nowadays. There are tons of great resources out there guiding us step by step on how to format out docs such as [this one][docInspiration].
+Look at it this way: any serious piece of software you write should ideally be thought as a possible building block for something bigger tomorrow. There's not too much point in creating an elegant, reusable solution if every time anyone (including you) wants to use it has to dig deep in source code to grasp its inner workings, this gap is easily filled with great documentation.
 
-Xcode even provide us the appropriate template we set the cursor on the name of our protocols/classes/structs and hit <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>/</kbd>
+Think in all the code we write on daily basis, including all third party dependencies we use: from a [UICollectionView][collectionView] to [Snapshot testing][snapshot]... How likely would we be to have them as our mental shortcuts for the domain they solve, let alone use them at all, if not for the great documentation there's behind these kind of frameworks and libraries? 
+
+## What is good documentation?
+In order to write effective documentation, the former must fulfill three principles:
+
+- It must answer what a piece of code does, not necessary how (at least not in depth): If I'm going to use a `sorting` method I might not need to know (or even care for that matter) what type of algorithm is used for that task. Sure, you can mention it uses [Quicksort][quicksort] but going into details how it works is an overkill.
+- Easy to find: you can be the Shakspear of documentation but if nobody can read it when they need it then is as good as nothing. Good documentation must be findable outside your IDE of choice. 
+- Show, don't tell: this is one of those golden rules of writing. Don't limit your documentation to a bunch of technical jargon. **Show** examples of usage and, when possible, where to use them.
+
+![show example]({{ site.url }}/assets/posts/10_documentation/show.jpg)  |  ![don't tell example]({{ site.url }}/assets/posts/10_documentation/tell.jpg)
+Show  | Don't tell
+
+Document only what's going to be used by the outside world. It's a myth that every single line of code should be documented. There are better uses for your time so invest it where it counts (see the 3 points above when in doubt).
 
 ## How to do it effectively
 
-- It must answer what a piece of code does, not necessary how (at least not in depth): What do I mean by this? If I'm going to use a `sorting` method I might not need to know (or even care for that matter) what type of algorithm is used for that task.
-- Document only what's going to be used by the outside world: it's a myth that every single line of code should be documented. There are better uses for your time so invest it where it counts.
-- Show, don't tell: this is one of those golden rules of writing. Don't limit your documentation to a bunch of technical jargon, **show** examples of usage and use cases.
+Writing good documentation is easier than ever nowadays. Xcode even provide us the appropriate template we set the cursor on the name of our protocols/classes/structs and hit <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>/</kbd>. Swift's documentation is great because it has embedded markup support, the example shown above was generating using this syntax:
 
-Show  | Don't tell
-sffsd | sdfdsfdf |
+{% highlight moin %}
+{% include posts/10_documentation/markdownExample.md %}
+{%- endhighlight -%} 
+
+When <kbd>⌥</kbd> + click on top of any code that's documented, rendering ocurrs and it's shown in that pretty format. Since going into deep in markup language is beyone the scope of this post, I urge you to check for more details in the [official documentation][swiftMarkup] (no pun intended 🥁)
 
 ## Using jazzy for the job
 
-We established above documentation must be foundable beyond your IDE, in other words anyone in need for any of your APIs shouldn't have to go through the source code of them necessarily in order to consume them properly. So how do we achieve this? One way is using a great tool built specifically for this task: [Jazzy][jazzy].
+We established above documentation must be findable beyond your IDE, in other words anyone in need for any of your APIs shouldn't have to go through the source code of them necessarily in order to consume them properly. So how do we achieve this? One way is using a great tool built specifically for this task: [Jazzy][jazzy].
 
 Jazzy is a command-line utility maintained by the folks of [realm][realm] that generates documentation for Swift and Objective-C, directly from  both source code and compiled modules. It dumps all that generated docs into a well formatted static site that resembles Apple's official documentation styling.
 
@@ -150,7 +172,7 @@ The command `jazzy` should now be available in your terminal. All that's left no
 
 ## Use case in practice
 
-I followed the steps above in order to generate [the documentation][netDoc] you see for [MauriNet][net]. This is a Networking wrapper I built around Swift's native URLSession so it wouldn't be necessary to add third party dependencies for simple `GET`/`POST` requests and skipping the boilerplate ceremony each time I'd have to use it.
+I followed the steps above in order to generate [the documentation][netRoot] you see for [MauriNet][net]. This is a Networking wrapper I built around Swift's native URLSession so it wouldn't be necessary to add third party dependencies for simple `GET`/`POST` requests and skipping the boilerplate ceremony each time I'd have to use it.
 
 Please go ahead and check it out. Feedback is not only welcome but encouraged, I'll be delighted to receive pull requests in this and any of my other repos.
 
@@ -161,7 +183,7 @@ $ jazzy \
 --clean \
 --author "mauricio chirino" \
 --author_url https://geekingwithmauri.com \
---github_url https://github.com/mchirino89/maurinet \
+--github_url https://github.com/GeekingwithMauri/MauriNet \
 --disable-search \
 --skip-undocumented 
 {%- endhighlight -%}
@@ -174,3 +196,21 @@ Since the line would have been too long to fit in a single snapshot, I specified
 - `github_url:` project's Github repo.
 - `disable-search:` this skips generating a search bar for the site. I found it confusing to use since the results were plain json.
 - `skip-undocumented:` avoids generating doc for undocumented code. Really useful to hide work in progress within your modules/frameworks.
+
+## Make it findable
+
+I know you probably thought after clicking on the [the documentation generated above][netRoot] "well hold on a secong Mauri, you said documentation must be easy to find. This is a not very friendly to read on!" on your partially right. Why do I say "partially"? If you download the project and head over the `/docs` folder, just by clicking on _index.html_ you'll be prompted into your browser and see an entirely functional documentation.
+
+But since I'm kind of contradicting myself with all the extra steps above, let's make this click-prof findable by setting `/docs` folder as a [Github page][ghPage]:
+
+1. After your documentation is pushed in your repository (ideally in its root), head over to its ⚙ Settings
+2. Select **Pages** on the left bar, near the bottom of the list.
+3. In the source list, select the branch where the documentation was pushed and next to it, the folder (`/docs` in our case unless you've customized jazzy folder out put).
+4. After clicking **Save**, you should see the resulting link where the documentation is hosted now. 
+
+![final result]({{ site.url }}/assets/posts/10_documentation/page.jpg)
+
+Now [this is findable documentation for MauriNet][netDoc]
+
+## Final thoughts
+
