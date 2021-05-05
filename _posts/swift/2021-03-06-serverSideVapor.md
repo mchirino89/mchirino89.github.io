@@ -101,7 +101,7 @@ Let's put this server to proper use, shall we? In the project structure, head ov
 Let's say for instance you need an endpoint to return a JSON response with some data (maybe even have some of it dynamically injected from the URL itself). In order to implement this we'll need to add another case to the `routes` method mentioned above, as well as the data structure representing our JSON in question.
 
 {% highlight swift %}
-{% include src/User.swift %}
+{% include posts/8_mockVapor/User.swift %}
 {% endhighlight %}
 
 (I specified the `init` constructor to receive only the id for speeding up the example.)
@@ -109,7 +109,7 @@ Let's say for instance you need an endpoint to return a JSON response with some 
 `Content` protocol conforms behind scenes to `Codable`, `RequestDecodable` and `ResponseEncodable`. This compliance is necessary in order to make our struct above a valid response from our endpoint down below.
 
 {% highlight swift %}
-{% include src/DummyResponse.swift %}
+{% include posts/8_mockVapor/DummyResponse.swift %}
 {% endhighlight %}
 
 Run again your project and visit *http://127.0.0.1:8080/dummyUser* to find our JSON object being returned as we expected 😬 
@@ -119,13 +119,13 @@ Run again your project and visit *http://127.0.0.1:8080/dummyUser* to find our J
 What if you want to have one of its value read from the URL? We can turn our endpoint into a dynamic one leveraging the routes parameter that Vapor allows
 
 {% highlight swift %}
-{% include src/DynamicRoute.swift %}
+{% include posts/8_mockVapor/DynamicRoute.swift %}
 {% endhighlight %}
 
 `app.get` is a function that handles [variadic parameters][variadicFunction] which is fancy way to say it can receive as many parameters as desired, in compliance with coma-separated format of course. Any of said parameters that are prefixed with a colon (`:`) will be a dynamic one. Above we accessed and casted it via the grabber function `.get`
 
 {% highlight javascript %}
-{% include src/userResponse.json %}
+{% include posts/8_mockVapor/userResponse.json %}
 {% endhighlight %}
 
 (JSON encoding is used by default but this is easily [configurable][supportMedia] should it be necessary.)
@@ -133,7 +133,7 @@ What if you want to have one of its value read from the URL? We can turn our end
 What if you want to check for proper error handling should it be the case? Fair enough, let's tweak our endpoint to be a little more robust. Above we forced unwrapped the casting from the dynamic route (`String`) into a numeric value (`Int`) which is risky. Down below there's a safer way to handle this.
 
 {% highlight swift %}
-{% include src/DynamicRouteWithError.swift %}
+{% include posts/8_mockVapor/DynamicRouteWithError.swift %}
 {% endhighlight %} 
 
 For a complete list of supported HTTP errors, check out the [docs][errorDoc]
