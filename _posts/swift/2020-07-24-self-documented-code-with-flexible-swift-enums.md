@@ -8,6 +8,8 @@ tags: [swift, coding, documentation, testing]
 
 [referralAutor]: https://pixabay.com/es/users/daledbet-14607822/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
 [referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
+[goodDocumentation]: {% post_url /swift/2021-05-03-documentation-in-practice %} 
+
 [joke]: https://twitter.com/iamdevloper/status/1060067235316809729
 [spellingErrors]: https://stackoverflow.com/a/26667211/2376336
 [templates]: https://stackoverflow.com/a/38071980/2376336
@@ -25,7 +27,7 @@ tags: [swift, coding, documentation, testing]
 Image by [David Ledbetter][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
-Documentation is paramount for software development. -[Jokes aside][joke]- well documented libraries and SDKs are fundamental in order to rapidly build well crafted software, otherwise us as coder would be forever rewriting what has already be written just because no one understands what someone else did previously for lack of documentation.
+[Documentation is paramount][goodDocumentation] for software development. -[Jokes aside][joke]- well documented libraries and SDKs are fundamental in order to rapidly build well crafted software, otherwise us as coder would be forever rewriting what has already be written just because no one understands what someone else did previously for lack of documentation.
 
 However, the tricky thing with documentation is that it needs special care of its own. Beyond pointing out [spelling errors][spellingErrors] or [providing templates][templates] to speed up documentation process, it's a pretty labor intensive task by itself. Since bad documentation is far less useful than no documentation at all, we need to take it seriously and think well through about what we want to convey in our docs.
 
