@@ -8,7 +8,7 @@ tags: [swift, coding, documentation, testing]
 
 [referralAutor]: https://pixabay.com/es/users/daledbet-14607822/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
 [referralLink]: https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5423683
-[goodDocumentation]: {% post_url /swift/2021-05-03-documentation-in-practice %} 
+[goodDocumentation]: {% post_url /swift/2021-05-06-documentation-in-practice %} 
 
 [joke]: https://twitter.com/iamdevloper/status/1060067235316809729
 [spellingErrors]: https://stackoverflow.com/a/26667211/2376336
