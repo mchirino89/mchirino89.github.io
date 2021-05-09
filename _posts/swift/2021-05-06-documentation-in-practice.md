@@ -91,7 +91,7 @@ Document only what's going to be used by the outside world. It's a myth that eve
 
 Writing documentation in Swift is great because it has markup support embedded so documentating is easier than ever nowadays. Xcode even provide us the appropriate template when we set the cursor on the name of our protocols/classes/structs and hit <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>/</kbd>. The example shown above was generating using this syntax:
 
-{% highlight moin %}
+{% highlight mkd %}
 {% include posts/10_documentation/markdownExample.md %}
 {%- endhighlight -%} 
 
@@ -234,8 +234,13 @@ But since I'm kind of contradicting myself with all the extra steps above, let's
 
 ![final result]({{ site.url }}/assets/posts/10_documentation/page.jpg)
 
-To check the state of the deployment, head over to 
-`https://github.com/[your_github_user]/[you_repo]/deployments/activity_log?environment=github-pages`. The shortcut for this is the link next to the little rocket on the right side within your repo's main page
+To check the state of the deployment, head over to:
+
+{% highlight html %}
+https://github.com/[your_github_user]/[you_repo]/deployments/activity_log?environment=github-pages
+{%- endhighlight -%}
+
+The shortcut for this is the link next to the little rocket on the right side within your repo's main page
 
 ![page deploy]({{ site.url }}/assets/posts/10_documentation/pageDeploy.jpg)
 

@@ -24,7 +24,7 @@
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+    {%- include header/google-analytics.html -%}
   {%- endif -%}
   <script defer src="/js/patreon.min.js"></script>
 </head>

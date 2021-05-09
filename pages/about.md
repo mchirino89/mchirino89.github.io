@@ -3,7 +3,7 @@ layout: page
 title: Who's behind?
 ---
 
-{%- include avatar.html -%}
+{%- include profile/avatar.html -%}
 
 I've been writing code since 2007 and getting paid for it since 2013 (outside of college), 
 a bit over a year since getting my BS in software engineering from [UNET](http://www.unet.edu.ve/).
@@ -27,6 +27,6 @@ same words 😄-
 
 ## My résumé?
 
-Need a PDF version of my CV? No problem: download it {%- include cvDownloadable.html -%}
+Need a PDF version of my CV? No problem: download it {%- include profile/cvDownloadable.html -%}
 
 Cheers!

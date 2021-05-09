@@ -1,6 +1,6 @@
 <footer class="site-footer h-card">
   <div class="wrapper">
-    {%- include sponsor.html -%}
+    {%- include footer/plugins/sponsor.html -%}
     <br>
 
     <div class="footer-col-wrapper">
@@ -10,11 +10,11 @@
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
-      {%- include contact.html -%}
+      {%- include footer/social/contact.html -%}
     </div>
 
     {%- if site.disqus.shortname and page.date -%}
-      {%- include disqus_comments.html -%}
+      {%- include footer/plugins/disqus_comments.html -%}
     {%- endif -%}
   </div>
 </footer>

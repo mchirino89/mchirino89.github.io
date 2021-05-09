@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Geeking with Mauri
-email: contact@geekingwithmauri.com
 description: >- # this means to ignore newlines until "baseurl:"
   The main goal is for all of us to educate each other ☺️🤓
   You're more than welcome to point out alternative approaches you might think for anything you read here.
@@ -42,6 +41,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 defaults:
 - scope:
@@ -53,6 +53,8 @@ sass:
   style: compressed
 
 future: false
+paginate: 7
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
