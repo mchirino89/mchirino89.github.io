@@ -52,7 +52,7 @@ defaults:
 sass:
   style: compressed
 
-future: false
+future: true
 paginate: 7
 paginate_path: "/page:num/"
 
