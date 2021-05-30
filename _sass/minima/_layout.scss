@@ -212,7 +212,13 @@
   @include relative-font-size(1.5);
 }
 
-
+/**
+ * Page 404
+ */
+.container {
+  margin: 10px auto;
+  text-align: center;
+}
 
 /**
  * Posts
@@ -329,10 +335,10 @@ iframe[src*="ads-iframe"] { display: none; }
     }
  }
 
-.pagination {
+.footer.micro-copy, .pagination {
     text-align: center;
  }
 
 .pagination .currentPage {
   background-color: var(--brand-color);
-}
+} 

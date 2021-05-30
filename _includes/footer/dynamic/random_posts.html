@@ -1,0 +1,27 @@
+<div class="relatedPosts">
+	
+	<h3>Check out one of these in the meantime 👇🏽</h3>
+
+	{% assign suggestedOrderedPosts = 2 %}
+	{% for post in site.posts limit: suggestedOrderedPosts %}
+
+		<a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="rel">
+                <h4>{{ post.title }}</h4>
+            </div>
+        </a>
+	{% endfor %}
+
+	<!-- https://stackoverflow.com/a/46788042/2376336 -->
+	<!-- Random number generation for last post -->
+	{% assign min = suggestedOrderedPosts %}
+	{% assign max = site.posts.size %}
+	{% assign diff = max | minus: min %}
+	{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+	{% assign post = site.posts[randomNumber] %}
+	<a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="rel">
+            <h4>{{ post.title }}</h4>
+        </div>
+    </a>
+</div>
