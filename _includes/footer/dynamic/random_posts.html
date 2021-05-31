@@ -3,25 +3,48 @@
 	<h3>Check out one of these in the meantime 👇🏽</h3>
 
 	{% assign suggestedOrderedPosts = 2 %}
-	{% for post in site.posts limit: suggestedOrderedPosts %}
+	<ul>
+		{% for post in site.posts limit: suggestedOrderedPosts %}
+			{%- assign imageHTML = post.content | 
+									split:"<img " | 
+									slice: 1 | 
+									split:"/>" | 
+									first |
+									replace: "[", "" |
+									replace: "\", "" |
+									replace: '"src="/assets/', 'src="/assets/' -%}
+			<li class="rel">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+		            <div>
+		            	<img {{ imageHTML }} />
+		                <h4>{{ post.title }}</h4>
+		            </div>
+		        </a>
+	        </li>
+		{% endfor %}
 
-		<a href="{{ site.baseurl }}{{ post.url }}">
-            <div class="rel">
-                <h4>{{ post.title }}</h4>
-            </div>
-        </a>
-	{% endfor %}
-
-	<!-- https://stackoverflow.com/a/46788042/2376336 -->
-	<!-- Random number generation for last post -->
-	{% assign min = suggestedOrderedPosts %}
-	{% assign max = site.posts.size %}
-	{% assign diff = max | minus: min %}
-	{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-	{% assign post = site.posts[randomNumber] %}
-	<a href="{{ site.baseurl }}{{ post.url }}">
-        <div class="rel">
-            <h4>{{ post.title }}</h4>
-        </div>
-    </a>
+		<!-- https://stackoverflow.com/a/46788042/2376336 -->
+		<!-- Random number generation for last post -->
+		{% assign min = suggestedOrderedPosts %}
+		{% assign max = site.posts.size %}
+		{% assign diff = max | minus: min %}
+		{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+		{% assign post = site.posts[randomNumber] %}
+		{%- assign imageHTML = post.content | 
+								split:"<img " | 
+								slice: 1 | 
+								split:"/>" | 
+								first |
+								replace: "[", "" |
+								replace: "\", "" |
+								replace: '"src="/assets/', 'src="/assets/' -%}
+		<li class="rel">
+			<a href="{{ site.baseurl }}{{ post.url }}">
+	            <div>
+	            	<img {{ imageHTML }} />
+	                <h4>{{ post.title }}</h4>
+	            </div>
+	        </a>
+        </li>
+    </ul>
 </div>
