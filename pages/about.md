@@ -20,10 +20,7 @@ to the community when time and family obligations allow me to. Feel free to
 [reach me out](https://github.com/mchirino89) or leave some [comment](https://twitter.com/Chirino89M). If it's a business/idea topic you can also [find me around](https://www.linkedin.com/in/mauriciochirino/)
 with a more serious face 👨🏽‍💻
 
-Right now I'm working on [PedidosYa](https://www.pedidosya.com/). For those of you reading from USA,
-it's like [_DoorDash_](https://www.doordash.com/en-US) but in Latin America -it's not a bold claim 
-on my behalf: I knew theirs [Mobile technical lead in](https://www.linkedin.com/in/laurodriguez7/) a conference and those were her exact 
-same words 😄-
+I'm a big believer of crypto power and that lead me to work on [Bitso](https://bitso.com), one of the most valuable fintechs in Latin America. 
 
 ## My résumé?
 
