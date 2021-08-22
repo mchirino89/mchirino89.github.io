@@ -212,6 +212,7 @@ $ jazzy \
 --author "Mauricio Chirino" \
 --author_url https://geekingwithmauri.com \
 --github_url https://github.com/GeekingwithMauri/MauriNet \
+--output docs \
 --disable-search \
 --skip-undocumented 
 {%- endhighlight -%}
@@ -222,6 +223,7 @@ Since the line would have been too long to fit in a single snapshot, I specified
 - `author:` who's behind this documentation.
 - `author_url:` where can this person (or company) be found.
 - `github_url:` project's Github repo.
+- `output:` folder where the entire output will be dumped.
 - `disable-search:` this skips generating a search bar for the site. I found it confusing to use since the results were plain json instead of HTML page.
 - `skip-undocumented:` avoids generating doc for undocumented code. Really useful to hide work in progress within your modules/frameworks.
 
@@ -233,7 +235,7 @@ But since I'm kind of contradicting myself with all the extra steps above, let's
 
 1. After your documentation is pushed in your repository (ideally in its root), head over to its Github ⚙ Settings
 2. Select **Pages** on the left bar, near the bottom of the list.
-3. In the source list, select the branch where the documentation was pushed and next to it, the folder (`/docs` in our case unless you've customized jazzy folder output).
+3. In the source list, select the branch where the documentation was pushed and next to it, the folder (`/docs` in our case unless) This is a requirement since Github only allows for a directory with either this same name or the repo's root folder.
 4. After clicking **Save**, you should see the resulting link where the documentation is hosted now. Give a minute or two until Github deploys it.
 
 ![final result]({{ site.url }}/assets/posts/10_documentation/page.jpg)
