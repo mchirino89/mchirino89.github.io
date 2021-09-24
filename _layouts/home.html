@@ -12,17 +12,18 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in paginator.posts -%}
-      <li>
+      <li class="post-card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <h2>
             {{ post.title | escape }}
-          </a>
-        </h2>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt | strip_html | escape | truncate_words: 75 }}<a href="{{ post.url | relative_url }}"> read more</a>
-        {%- endif -%}
+          </h2>
+
+          <article>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          </article>
+        </a>
       </li>
       {%- endfor -%}
     </ul>
