@@ -110,11 +110,6 @@ a {
     filter: brightness(0.3);
   }
 
-  &:hover {
-    color: var(--text-color);
-    text-decoration: underline;
-  }
-
   .social-media-list &:hover {
     text-decoration: none;
 
