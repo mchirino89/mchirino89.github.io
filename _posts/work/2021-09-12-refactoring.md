@@ -6,7 +6,7 @@ categories: work
 tags: [work, coding, rant, success]
 ---
 
-[referralLink]: https://qualitycoding.org/refactoring-demo/silhouette-of-man-holding-flamethrower-585418/
+[referralLink]: https://qualitycoding.org/refactoring-demo/
 
 [thinkBeforeYouCodePost]: {% post_url /work/2021-03-25-thinkingBeforeCoding %}
 
