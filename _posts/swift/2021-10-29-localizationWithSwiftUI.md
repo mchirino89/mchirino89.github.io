@@ -21,7 +21,7 @@ tags: [swift, swiftUI, testing, macOS, localization]
 Image by [Karolina Grabowska][referralAutor] from [Pixabay][referralLink]
 {: refdef}
 
-Manualy testing our UI in search of localization bugs is a ridiculous thing to do in 2021. So what is it then? Why do we keep coming back to the same topic?
+Manually testing our UI in search of localization bugs is a ridiculous thing to do in 2021. So what is it then? Why do we keep coming back to the same topic?
 
 - [Prerequisites](#prerequisites)
 - [Case study](#case-study)
@@ -33,17 +33,17 @@ Manualy testing our UI in search of localization bugs is a ridiculous thing to d
 
 ## Prerequisites
 
-The topic we're about to discuss asumes a few things from your part in order to get the most of it such as basic knowledge of:
+The topic we're about to discuss assumes a few things from your part in order to get the most of it such as basic knowledge of:
 
 - _SwiftUI_: it is the most recent UI framework from Apple. It allows us to build in a declarative fashion instead of good old imperative's UIKit way has all of us used to. This is the first time I'm talking about it in this blog but there are countless resources out there to learn from. I won't get into too many details.
 
-- _Localization_: Making our app be readable in multiple laguages was covered in a [previous post][localizable]. Apple provides some tools to do this without too much hustle so again: details will be scarce.
+- _Localization_: Making our app be readable in multiple languages was covered in a [previous post][localizable]. Apple provides some tools to do this without too much hustle so again: details will be scarce.
 
 - _Snapshot testing_: I talked in detail in a previous [medium post](https://medium.com/peya-tech/screenshots-para-tus-tests-85598e4c5c4e) (sorry but that one it's on Spanish only, let me know via Twitter if this is something you'd like me to go in detail). It's simply the practice of saving screenshots of our UI's different state in order to later compare them and be notified when something changes.
 
 ## Case study
 
-Let's say we want to draw a simple list of steps for one hypotetical audio edition/publishing app. 
+Let's say we want to draw a simple list of steps for one hypothetical audio edition/publishing app. 
 
 {% highlight swift %}
 {% include posts/15_swiftUITesting/InstructionsView.swift %}
@@ -63,7 +63,7 @@ What about a preview of our UI in different devices in light and dark mode? Swif
 {% include posts/15_swiftUITesting/Preview.swift %}
 {% endhighlight %}
 
-As a side note, running the followig command on a terminal will print out all available simulators in our environment. 
+As a side note, running the following command on a terminal will print out all available simulators in our environment. 
 
 {% highlight shell %}
 $ xcrun simctl list devicetypes
@@ -84,22 +84,22 @@ All of the above was rendered alongside my code within Xcode as I was tweaking t
 "I don't see the problem Mauri 🧐" you might be thinking. The above is all fine and dandy for small/prototype/side projects. The real issue arises with scale: what about multiple languages? Orientations (landscape/portrait)? Light and dark mode? Checking that no regressions are produce as the codebase grows? We need to introduce some automation in here!
 
 ## Snapshot tests
-This is where snapshot tests come in handy. In a nutshell: they take a screenshot of the device with the setup we provide and store it for later comparisson. As soon as something in the UI changes without us intending to do so, said test would inmediately fail (also providing a new screenshot for us to check what changed).
+This is where snapshot tests come in handy. In a nutshell: they take a screenshot of the device with the setup we provide and store it for later comparison. As soon as something in the UI changes without us intending to do so, said test would immediately fail (also providing a new screenshot for us to check what changed).
 
-Let's say we want to test in 3 different types of devices (an iPhone 8, 8+ and 12 Pro Max) for both light and dark mode, as well as landscape and protrait orientations. 
+Let's say we want to test in 3 different types of devices (an iPhone 8, 8+ and 12 Pro Max) for both light and dark mode, as well as landscape and portrait orientations. 
 
 {% highlight swift %}
 {% include posts/15_swiftUITesting/SnapshotTest.swift %}
 {% endhighlight %}
 
-The first time these tests are run, they failed because there's no a single anchor image to make comparissons with. In this instance, the snapshots will be created and afterwards will fail only when something from the UI changes. The resulting anchors will sit next to the tests files inside our project
+The first time these tests are run, they failed because there's no a single anchor image to make comparisons with. In this instance, all snapshots will be created and afterwards will fail only when something from the UI changes. The resulting anchors will sit next to our tests files inside our project
 
 ![anchor images]({{ site.url }}/assets/posts/15_swiftUITesting/anchors.png)
 
 ## Proper localization
 What if we need supporting another language? Let's say Spanish to make things easy for the writer 😁🇻🇪
 
-First of all, let's replace the hardcoded strings by keys from the language tables we're adding for both English and Spanish, and access them using the same technique discussed in the [localization post][localizables]
+First of all, let's replace the hard coded strings by keys from the language tables we're adding for both English and Spanish, and access them using the same technique discussed in the [localization post][localizables]
 
 {% highlight swift %}
 {% include posts/15_swiftUITesting/Translator.swift %}
@@ -107,7 +107,7 @@ First of all, let's replace the hardcoded strings by keys from the language tabl
 
 Let's see how it looks setting a device in Spanish:
 
-| ![Device in English]({{ site.url }}/assets/posts/15_swiftUITesting/englishOnDevice.png) | ![Device in Spansih]({{ site.url }}/assets/posts/15_swiftUITesting/spanishOnDevice.png) |
+| ![Device in English]({{ site.url }}/assets/posts/15_swiftUITesting/englishOnDevice.png) | ![Device in Spanish]({{ site.url }}/assets/posts/15_swiftUITesting/spanishOnDevice.png) |
 
 Thanks to the test we added in the previous part, we are confident this change isn't causing any regression. This is what a I call [a proper refactor][refactor]! 👏🏽
 
@@ -135,7 +135,7 @@ Enter _test plans_ into the picture: they were introduced in WWDC 2019 with Xcod
 
 - After that, we can close the scheme window and the test plan setup window should be open. In it we're going to setup our desired context
 
-| ![Test plan in English]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/4.1.jpg) | ![Test plan in Spansih]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/4.2.jpg) |
+| ![Test plan in English]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/4.1.jpg) | ![Test plan in Spanish]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/4.2.jpg) |
 
 - Now all that's left missing is adding our snapshot tests for Spanish. We'll also tweak them so they don't get executed when the device is English.
 
@@ -149,14 +149,14 @@ After running the test suite again (⌘ + U), it'll get execute twice in order t
 
 ![test plan location]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/5.jpg)
 
-We're left with all the anchor images permutations stored for later comparissons.
+We're left with all the anchor images permutations stored for later comparisons.
 
 ![test plan location]({{ site.url }}/assets/posts/15_swiftUITesting/testPlan/6.jpg)
 
 ## Final thoughts
 There's a place in the testing pyramid for manual verification but it's reserved for hard to replicate edge cases. For more mundane layout and general UI validations, Snapshots are usually good enough.
 
-Nevertheless it's worth mentioning the toll they incur in performance. Unit tests are blazzing fast (usually under 1ms each one). Snapshots are on average 100 times slower, therefore we should be careful not to relay so heavily on them. 
+Nevertheless it's worth mentioning the toll they incur in performance. Unit tests are blazing fast (usually under 1 ms each one). Snapshots are on average 100 times slower, therefore we should be careful not to relay so heavily on them. 
 
 As always, there's no silver bullets regarding software development. There will be times when it makes sense to pay for the performance penalty in order to cover a legacy screen, just to mention a common scenario. Each context is different so let's not paint ourselves into a corner only for following "best practices". Happy testing 👨🏽‍💻👋🏼
 
