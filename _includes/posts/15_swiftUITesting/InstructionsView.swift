@@ -19,12 +19,16 @@ struct ItemRow: View {
     }
 }
 
-struct ContentView: View {
-    var stepsDataSource: [String] = [
+struct StepsModel {
+    let dataSource: [String] = [
         "Select audio file 🎶",
         "Polish it 🦻🏽",
         "Publish it 📢"
     ]
+}
+
+struct ContentView: View {
+    let stepsDataSource: [String]
 
     var body: some View {
         VStack {

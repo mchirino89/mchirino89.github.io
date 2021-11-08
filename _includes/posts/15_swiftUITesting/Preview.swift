@@ -17,7 +17,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ForEach(devices, id: \.self) { name in
                 ForEach(ColorScheme.allCases, id: \.self) { mode in
-                    ContentView()
+                    ContentView(stepsDataSource: StepsModel().dataSource)
                         .previewDevice(PreviewDevice(rawValue: name))
                         .previewDisplayName(name)
                         .environment(\.colorScheme, mode)
