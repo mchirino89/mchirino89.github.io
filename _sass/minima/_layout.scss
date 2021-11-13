@@ -187,6 +187,7 @@
 
 .page-heading {
   @include relative-font-size(2);
+  padding-bottom: 0.5em;
 }
 
 .post-list-heading {
@@ -205,11 +206,12 @@
 .post-meta {
   font-size: $small-font-size;
   color: var(--grey-color);
+  display: block;
+  text-align: right;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
 }
 
 /**
@@ -223,6 +225,24 @@
 /**
  * Posts
  */
+
+.post-card {
+  border-radius: 25px;
+  padding: 2em;
+  background-color: var(--card-color);
+}
+
+.post-card:hover {
+  box-shadow: 0px 0px 8px 2px var(--brand-color);
+  -webkit-box-shadow: 0px 0px 8px 2px var(--brand-color);
+  -moz-box-shadow: 0px 0px 8px 2px var(--brand-color);
+}
+
+.post-card:hover h2 {
+  color: var(--brand-color);
+}
+
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -235,6 +255,10 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+}
+
+.post-excerpt {
+  color: var(--text-color);
 }
 
 .post-content {
@@ -303,13 +327,19 @@ h2, h3, h4, h5, h6 {
 .relatedPosts {
   border-top: 3px solid #333;
   padding-top: 15px;
-  margin:0 auto;
+  margin: 0 auto;
+}
+
+.items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-content: center;
+  column-gap: 1em;
 }
 
 .rel {
-  width: 250px;
-  display: inline-block;
-  padding: 8px;
+  padding: 1em;
   opacity: 0.8;
 }
 
@@ -319,20 +349,24 @@ h2, h3, h4, h5, h6 {
 
 iframe[src*="ads-iframe"] { display: none; }
 
+iframe[src*="ad-container"] { display: none; }
+
+iframe #ad-container { display: none; }
+
 .pagination a, .pagination span {
-  padding: 7px 18px;
-  border: 1px solid #eee;
-  margin-left: -2px;
-  margin-right: -2px;
-  background-color: var(--background-color);
-  display: inline-block;
-}
+    padding: 7px 18px;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: var(--background-color);
+    display: inline-block;
+  }
 
 .pagination a {    
-  &:hover {
-      background-color: #f1f1f1;
-      color: #333;
-  }
+    &:hover {
+        background-color: #f1f1f1;
+        color: #333;
+        border-radius: 33%;
+    }
 }
 
 .footer.micro-copy, .pagination {
@@ -341,4 +375,9 @@ iframe[src*="ads-iframe"] { display: none; }
 
 .pagination .currentPage {
   background-color: var(--brand-color);
+  border-radius: 33%;
 } 
+
+.notFoundImage {
+  max-width: 35%;
+}

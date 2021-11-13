@@ -34,8 +34,8 @@ markdown: kramdown
 auto_ids: true
 theme: minima
 show_excerpts: true
-disqus:
-  shortname: geekingwithmauri
+# disqus:
+#   shortname: geekingwithmauri
 plugins:
   - jekyll-feed
   - jemoji
