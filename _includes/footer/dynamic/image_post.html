@@ -4,7 +4,7 @@
   {% if image contains 'src' %}
     {% if foundImage == 0 %}
       {% assign html = image | split:"/>" | first %}
-        <img {{ html }} />
+        <img {{ html }} class="suggestion-thumbnail" />
       {% assign foundImage = 1 %}
     {% endif %}
   {% endif %}
