@@ -1,33 +1,21 @@
 ---
 layout: default
 ---
-
 <div class="home">
-  {%- if paginator.page == 1 -%}
-    <h1 class="page-heading">Latest posts</h1>
-  {%- endif -%}
-  
+  <h1 class="page-heading">Latest posts</h1>
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in paginator.posts -%}
-      <li class="post-card">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2>
-            {{ post.title | escape }}
-          </h2>
-
-          <article>
-            <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-          </article>
-        </a>
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-
-  {%- include footer/dynamic/pagination.html -%}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li class="post-card">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h2> {{ post.title | escape }} </h2>
+        <article>
+          <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </article>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
 </div>

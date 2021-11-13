@@ -52,10 +52,6 @@ defaults:
 sass:
   style: compressed
 
-future: true
-paginate: 7
-paginate_path: "/page:num/"
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
