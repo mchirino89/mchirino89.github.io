@@ -206,8 +206,6 @@
 .post-meta {
   font-size: $small-font-size;
   color: var(--grey-color);
-  display: block;
-  text-align: right;
 }
 
 .post-link {
@@ -326,7 +324,7 @@ h2, h3, h4, h5, h6 {
 
 .relatedPosts {
   border-top: 3px solid #333;
-  padding-top: 15px;
+  padding: 1.5em 0;
   margin: 0 auto;
 }
 
@@ -336,6 +334,7 @@ h2, h3, h4, h5, h6 {
   grid-auto-columns: 1fr;
   align-content: center;
   column-gap: 1em;
+  padding-top: 1em;
 }
 
 .rel {

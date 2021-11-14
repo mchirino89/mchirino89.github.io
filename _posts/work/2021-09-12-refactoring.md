@@ -12,8 +12,6 @@ tags: [work, coding, rant, success]
 
 {:refdef: style="text-align: center;"}
 ![compass](/assets/posts/13_refactoring/cover.jpg)
-{: refdef}
-{:refdef: style="text-align: center;"}
 Photo from [Quality coding][referralLink]
 {: refdef}
 
@@ -50,7 +48,7 @@ It's not a perfect strategy. Our assumptions could be wrong which in turn would 
 
 On the flip side, the alternative -moving stuff around hoping nothing breaks- is just finger crossing 🤞🏽.
 
-## "You can't make an omelette without breaking some eggs" 
+## "You can't make an omelette without breaking some eggs"
 
 "I inherited a legacy codebase Mauri, what you're proposing doesn't apply in those cases" I hear you saying. There's another [excellent book](https://amzn.to/3twP8x3) dedicated to address said scenario. I'm not pulling this out my butt people, way more experienced and truly prolific programmers than me have gone through these roads and they all pretty much converge in the same key points
 
