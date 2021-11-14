@@ -324,7 +324,7 @@ h2, h3, h4, h5, h6 {
 
 .relatedPosts {
   border-top: 3px solid #333;
-  padding-top: 15px;
+  padding: 1.5em 0;
   margin: 0 auto;
 }
 
@@ -334,6 +334,7 @@ h2, h3, h4, h5, h6 {
   grid-auto-columns: 1fr;
   align-content: center;
   column-gap: 1em;
+  padding-top: 1em;
 }
 
 .rel {
@@ -365,11 +366,11 @@ iframe #ad-container { display: none; }
         color: #333;
         border-radius: 33%;
     }
- }
+}
 
 .footer.micro-copy, .pagination {
-    text-align: center;
- }
+  text-align: center;
+}
 
 .pagination .currentPage {
   background-color: var(--brand-color);
@@ -378,4 +379,9 @@ iframe #ad-container { display: none; }
 
 .notFoundImage {
   max-width: 35%;
+}
+
+.suggestion-thumbnail {
+  border-radius: 1em 1em 0 0;
+  padding-bottom: 0.5em;
 }

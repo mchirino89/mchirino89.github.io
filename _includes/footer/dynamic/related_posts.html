@@ -23,9 +23,10 @@
 
         {% if sameTagCount >= minCommonTags %}
            <a href="{{ site.baseurl }}{{ post.url }}">
-              <div class="rel post-card">
-                  <h4>{{ post.title }}</h4>
-              </div>
+            <div class="rel post-card">
+              {%- include footer/dynamic/image_post.html -%}
+              <h4>{{ post.title }}</h4>
+            </div>
           </a>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}

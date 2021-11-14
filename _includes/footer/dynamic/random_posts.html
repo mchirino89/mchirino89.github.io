@@ -1,12 +1,11 @@
 <div class="relatedPosts">
-	
 	<h3>Feel free to also check out one of these in the meantime 👇🏽</h3>
 	<div class="items">
 		{% assign suggestedOrderedPosts = 2 %}
 		{% for post in site.posts limit: suggestedOrderedPosts %}
-
 			<a href="{{ site.baseurl }}{{ post.url }}">
 	            <div class="rel post-card">
+	            	{%- include footer/dynamic/image_post.html -%}
 	                <h4>{{ post.title }}</h4>
 	            </div>
 	        </a>
@@ -21,6 +20,7 @@
 		{% assign post = site.posts[randomNumber] %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 	        <div class="rel post-card">
+	        	{%- include footer/dynamic/image_post.html -%}
 	            <h4>{{ post.title }}</h4>
 	        </div>
 	    </a>
