@@ -107,7 +107,7 @@ First of all, let's replace the hard coded strings by keys from the language tab
 
 Let's see how it looks setting a device in Spanish:
 
-| ![Device in English]({{ site.url }}/assets/posts/15_swiftUITesting/englishOnDevice.png) | ![Device in Spanish]({{ site.url }}/assets/posts/15_swiftUITesting/spanishOnDevice.png) |
+| ![Device in English]({{ site.url }}/assets/posts/15_swiftUITesting/deviceOnEnglish.png) | ![Device in Spanish]({{ site.url }}/assets/posts/15_swiftUITesting/deviceOnSpanish.png) |
 
 Thanks to the test we added in the previous part, we are confident this change isn't causing any regression. This is what a I call [a proper refactor][refactor]! 👏🏽
 
