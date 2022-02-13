@@ -2,12 +2,16 @@
 layout: page
 title: Portfolio
 ---
-[light]: /assets/portfolio/MyStickers/light.jpg
-[dark]: /assets/portfolio/MyStickers/dark.jpg
+[MatchWordMarketing]: /assets/portfolio/MatchWord/matchword_maketing.jpg
+[MatchWordLight]: /assets/portfolio/MatchWord/pathAnimatedLight.gif?style=centerme
+[MatchWordDark]: /assets/portfolio/MatchWord/pathAnimatedDark.gif?style=centerme
+[MyStickersLight]: /assets/portfolio/MyStickers/light.jpg
+[MyStickersDark]: /assets/portfolio/MyStickers/dark.jpg
 [iPad]: /assets/portfolio/MyStickers/iPad.jpg
 [RickAndMortyImage]: /assets/portfolio/RickAndMorty/RickAndMorty.jpg
 [blogImage]: /assets/portfolio/Blog/cover.png
 
+[mw]: https://apps.apple.com/uy/app/matchword/id1604106291
 [stickers]: https://apps.apple.com/us/app/mystickers/id884352968
 [avengers]: https://collectibles.panini.co.uk/editorial/road-to-avengers-endgame-sticker-collection.html
 [soccer]: http://collectibles.panini.uy/editorial/album-conmebol-copa-america-2021-preview.html
@@ -18,10 +22,18 @@ title: Portfolio
 [dynamic]: https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/
 [ci]: https://github.com/features/actions
 [RMRepo]: https://github.com/mchirino89/RickAndMorty
-[blog]: asset
 
+## 📱 MatchWord
 
-Here's a little sample of my work
+My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics is a simple as they come: form as many words as possible before the time runs up, dragging your finger aroun in ANY and ALL directions.
+
+![Match word marketing][MatchWordMarketing]
+
+| Light mode           | Dark mode          |
+|----------------------|--------------------|
+| ![light mode][MatchWordLight] | ![Dark mode][MatchWordDark] |
+
+Ready to test those creative muscles of yours? [Check it out!][mw].
 
 ## 📱 MyStickers
 
@@ -29,7 +41,7 @@ This is probably the first idea of an app I ever developed for publication back 
 
 | Light mode           | Dark mode          | iPad support             d |
 |----------------------|--------------------|--------------------------|
-| ![light mode][light] | ![Dark mode][dark] | ![iPad support][iPad]    |
+| ![light mode][MyStickersLight] | ![Dark mode][MyStickersDark] | ![iPad support][iPad]    |
 
 Feel free to [check it out][stickers].
 

@@ -385,3 +385,8 @@ iframe #ad-container { display: none; }
   border-radius: 1em 1em 0 0;
   padding-bottom: 0.5em;
 }
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
