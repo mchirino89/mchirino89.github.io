@@ -11,7 +11,7 @@ title: Portfolio
 [RickAndMortyImage]: /assets/portfolio/RickAndMorty/RickAndMorty.jpg
 [blogImage]: /assets/portfolio/Blog/cover.png
 
-[mw]: https://apps.apple.com/uy/app/matchword/id1604106291
+[mw]: https://apps.apple.com/us/app/matchwords-build-words/id1612434602
 [stickers]: https://apps.apple.com/us/app/mystickers/id884352968
 [avengers]: https://collectibles.panini.co.uk/editorial/road-to-avengers-endgame-sticker-collection.html
 [soccer]: http://collectibles.panini.uy/editorial/album-conmebol-copa-america-2021-preview.html
