@@ -2,6 +2,7 @@
 layout: default
 ---
 <div class="home">
+  {%- include header/search.html -%}
   <h1 class="page-heading">Latest posts</h1>
   {{ content }}
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
