@@ -390,3 +390,21 @@ img[src$="centerme"] {
   display:block;
   margin: 0 auto;
 }
+
+.search-bar {
+  width: 90%;
+  height: 4em;
+  padding: 0 5%;
+  background-color: var(--card-color);
+  border: none;
+  border-radius: 1em;
+  color: var(--grey-color);
+  font-size: $base-font-size;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-bottom: 3px solid var(--brand-color);
+  color: var(--text-color);
+  font-weight: 600;
+}
