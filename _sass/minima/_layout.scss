@@ -391,15 +391,23 @@ img[src$="centerme"] {
   margin: 0 auto;
 }
 
+.search-container {
+  display: flex;
+  margin: 0.5em 0 1em 0;
+}
+
 .search-bar {
   width: 90%;
   height: 4em;
   padding: 0 5%;
   background-color: var(--card-color);
   border: none;
+  border-bottom: none;
   border-radius: 1em;
   color: var(--grey-color);
   font-size: $base-font-size;
+  font-weight: 400;
+  transition: border-bottom 150ms ease, font-weight 150ms ease;
 }
 
 .search-bar:focus {
@@ -407,4 +415,18 @@ img[src$="centerme"] {
   border-bottom: 3px solid var(--brand-color);
   color: var(--text-color);
   font-weight: 600;
+  transition: border-bottom 150ms ease, font-weight 150ms ease;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -5em;
+}
+
+.search-button img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
 }
