@@ -3,7 +3,7 @@ layout: post
 title:  "Building a mock server using Swift's Vapor"
 categories: swift
 excerpt: What if I told you you can use what you already know as an iOS developer for backend development?
-tags: [swift, coding, framework, server, backend]
+tags: [coding, framework, server, backend]
 ---
 
 [referralAutor]: https://pixabay.com/users/schäferle-3372715/

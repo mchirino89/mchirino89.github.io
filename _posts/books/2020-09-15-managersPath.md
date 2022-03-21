@@ -3,7 +3,7 @@ layout: post
 title:  "📖 Books I've read: The manager's path (by  Camille Fournier)"
 excerpt: Do we (as developers) know what it takes/makes a great manager? 
 categories: books
-tags: [books, management, tech, IT]
+tags: [engineering, management, tech, IT]
 ---
 
 [micro]: https://www.investopedia.com/terms/m/micro-manager.asp

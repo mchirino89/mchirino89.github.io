@@ -208,6 +208,25 @@
   color: var(--grey-color);
 }
 
+.post-category {
+  float: right;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.tag-container {
+  padding-top: 1.5em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.post-tag {
+  box-shadow: 0 0 0.16em 0.05em var(--brand-color);
+  padding: 0.1em 0.66em;
+  border-radius: 1em;
+  margin: 0 1em 1em 0;
+}
+
 .post-link {
   display: block;
 }
@@ -220,26 +239,50 @@
   text-align: center;
 }
 
+.notFoundImage {
+  max-width: 35%;
+}
+
+.suggestion-thumbnail {
+  border-radius: 1em 1em 0 0;
+  padding-bottom: 0.5em;
+}
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
 /**
  * Posts
  */
 
 .post-card {
   border-radius: 25px;
-  padding: 2em;
+  padding: 2em 2em 1em;
   background-color: var(--card-color);
+  box-shadow: none;
+  -webkit-transition: box-shadow 300ms ease;
+  -moz-transition: box-shadow 300ms ease;
+  -ms-transition: box-shadow 300ms ease;
+  -o-transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
 }
 
 .post-card:hover {
   box-shadow: 0px 0px 8px 2px var(--brand-color);
   -webkit-box-shadow: 0px 0px 8px 2px var(--brand-color);
   -moz-box-shadow: 0px 0px 8px 2px var(--brand-color);
+  -webkit-transition: box-shadow 300ms ease;
+  -moz-transition: box-shadow 300ms ease;
+  -ms-transition: box-shadow 300ms ease;
+  -o-transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
 }
 
 .post-card:hover h2 {
   color: var(--brand-color);
 }
-
 
 .post-header {
   margin-bottom: $spacing-unit;
@@ -342,51 +385,6 @@ h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
-.rel hover {
+.rel:hover {
   opacity: 1;    
-}
-
-iframe[src*="ads-iframe"] { display: none; }
-
-iframe[src*="ad-container"] { display: none; }
-
-iframe #ad-container { display: none; }
-
-.pagination a, .pagination span {
-    padding: 7px 18px;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: var(--background-color);
-    display: inline-block;
-  }
-
-.pagination a {    
-    &:hover {
-        background-color: #f1f1f1;
-        color: #333;
-        border-radius: 33%;
-    }
-}
-
-.footer.micro-copy, .pagination {
-  text-align: center;
-}
-
-.pagination .currentPage {
-  background-color: var(--brand-color);
-  border-radius: 33%;
-} 
-
-.notFoundImage {
-  max-width: 35%;
-}
-
-.suggestion-thumbnail {
-  border-radius: 1em 1em 0 0;
-  padding-bottom: 0.5em;
-}
-
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
 }

@@ -3,7 +3,7 @@ layout: post
 title:  "A leap of faith? Incursion into mobile development"
 excerpt: Feeling tempted by mobile development but not sure if you're prepared, let alone whether it IS the right fit for you? 
 categories: work
-tags: [work, coding, mobile]
+tags: [coding, mobile, tech]
 ---
 
 [referralAutor]: https://pixabay.com/users/firmbee-663163/

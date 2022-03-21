@@ -3,7 +3,7 @@ layout: post
 title:  "Skills for succeeding on software development"
 excerpt: What if I tell you there's no need to curse on hourly basis during every single working day while writing code? Sounds impossible? Not at all 🤓👨🏽‍💻
 categories: work
-tags: [work, coding, no stress, success]
+tags: [coding, no stress, success]
 ---
 
 [referralAutor]: https://www.pexels.com/@ekaterina-bolovtsova?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels

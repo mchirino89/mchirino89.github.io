@@ -3,7 +3,7 @@ layout: post
 title:  "Think before you code"
 excerpt: Who are we really saving time for when we take shortcuts on daily basis in our codebases? 
 categories: work
-tags: [rant, tech, productivity, testing, work]
+tags: [rant, tech, productivity, testing, engineering]
 ---
 
 [referralAutor]: https://www.pexels.com/@yankrukov?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels

@@ -3,7 +3,7 @@ layout: post
 title:  "Documentation in practice for Swift"
 categories: swift
 excerpt: How do we write useful documentation that's available beyond the IDE?
-tags: [swift, documentation, CI, work, testing, github]
+tags: [documentation, CI, work, testing, github, unit tests]
 ---
 
 [referralAutor]: https://pixabay.com/users/myrfa-3126475/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1614223

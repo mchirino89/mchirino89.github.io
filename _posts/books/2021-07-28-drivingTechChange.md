@@ -3,7 +3,7 @@ layout: post
 title:  "📖 Books I've read: Driving Technical Change (by  Terrence Ryan)"
 excerpt: How then do you properly influence your peers into adopting practices and technologies you're pushing foward? 
 categories: books
-tags: [books, developer, software, coding, people]
+tags: [engineering, developer, software, coding, people]
 ---
 
 [drivingTechChange]: https://amzn.to/3ePK00T
