@@ -151,7 +151,7 @@
                 sortMiddleware: function() {
                     return 0
                 },
-                noResultsText: "No results found",
+                noResultsText: '<li class="search-match">No results found</li>',
                 limit: 10,
                 fuzzy: !1,
                 debounceTime: null,
