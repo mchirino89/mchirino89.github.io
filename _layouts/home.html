@@ -17,7 +17,7 @@ layout: default
           <span class="post-meta post-category">{{ post.categories[0] | capitalize }}</span>
           <article class="tag-container">
             {%- for tag in post.tags -%}
-            <span class="post-meta post-tag">{{ tag | capitalize }}</span> 
+            <span class="post-meta post-tag">{{ tag }}</span> 
             {%- endfor -%}
           </article>
         </section>

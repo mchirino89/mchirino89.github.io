@@ -3,7 +3,7 @@ layout: post
 title:  "Book recommendations 📚"
 categories: books
 excerpt: Evergreen knowledge in the form of books, this is a small glimpse of books I've read on core topics everyone should understand.
-tags: [books, personal, tech, IT, coding]
+tags: [personal, tech, IT, coding]
 ---
 
 [habits]: https://amzn.to/2Ztgead

@@ -3,7 +3,7 @@ layout: post
 title:  "What refactoring is not"
 excerpt: Fewer terms have been misused more times than refactoring. Let's see when and where it really applies.
 categories: work
-tags: [work, coding, rant, success]
+tags: [engineering, coding, rant, success, unit tests]
 ---
 
 [referralLink]: https://qualitycoding.org/refactoring-demo/

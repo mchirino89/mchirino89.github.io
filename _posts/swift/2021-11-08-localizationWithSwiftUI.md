@@ -3,7 +3,7 @@ layout: post
 title:  "Guarantee localization with SwitfUI"
 categories: swift
 excerpt: The new shiny framework from Apple is not very intuitive on the testing front, or is it? How can we make it so?
-tags: [swift, swiftUI, testing, macOS, localization]
+tags: [SwiftUI, testing, unit tests, macOS, localization]
 ---
 
 [referralAutor]: https://www.pexels.com/@karolina-grabowska?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
