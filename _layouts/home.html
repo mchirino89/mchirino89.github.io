@@ -13,7 +13,8 @@ layout: default
         <h2> {{ post.title | escape }} </h2>
         <article>
           <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <span class="post-meta">{{ post.date | date: date_format }}</span> 
+          <span class="post-meta">{{ post.categories }}</span>
         </article>
       </a>
     </li>

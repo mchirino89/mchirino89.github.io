@@ -265,7 +265,6 @@ img[src$="centerme"] {
   color: var(--brand-color);
 }
 
-
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -367,7 +366,7 @@ h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
-.rel hover {
+.rel:hover {
   opacity: 1;    
 }
 
