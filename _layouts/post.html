@@ -11,6 +11,11 @@ layout: default
       </time>
       {%- include header/reading_time.html -%}
     </p>
+    <article class="tag-container">
+      {%- for tag in page.tags -%}
+      <span class="post-meta post-tag">{{ tag | capitalize }}</span> 
+      {%- endfor -%}
+    </article>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
