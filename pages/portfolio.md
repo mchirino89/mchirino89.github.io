@@ -25,7 +25,7 @@ title: Portfolio
 
 ## 📱 MatchWord
 
-My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics is as simple as they come: form as many words as possible before the time runs up, dragging your finger aroun in ANY and ALL directions.
+My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics are as simple as they come: form as many words as possible before the time runs up, dragging your finger around in ANY and ALL directions.
 
 ![Match word marketing][MatchWordMarketing]
 
@@ -37,7 +37,7 @@ Ready to test those creative muscles of yours? [Check it out!][mw].
 
 ## 📱 MyStickers
 
-This is probably the first idea of an app I ever developed for publication back in 2014. The premise is simple: instead of keep losing paper lists with your missing sticker numbers from an album your completing (may that be for the [latest soccer cup tournament][soccer], an [Avenger's movie][avengers], etc), choose to use _MyStickers_ for such task. It allows for quick sorting and searching as well as sharing the list with other users via QR code.
+This is probably the first idea of an app I ever developed for publication back in 2014. The premise is simple: instead of losing paper lists with your missing sticker numbers from an album your completing (may that be for the [latest soccer cup tournament][soccer], an [Avenger's movie][avengers], etc), choose to use _MyStickers_ for such task. It allows for quick sorting and searching as well as sharing the list with other users via QR code.
 
 | Light mode           | Dark mode          | iPad support             d |
 |----------------------|--------------------|--------------------------|
