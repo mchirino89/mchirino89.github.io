@@ -25,7 +25,7 @@ title: Portfolio
 
 ## 📱 MatchWord
 
-My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics is a simple as they come: form as many words as possible before the time runs up, dragging your finger aroun in ANY and ALL directions.
+My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics is as simple as they come: form as many words as possible before the time runs up, dragging your finger aroun in ANY and ALL directions.
 
 ![Match word marketing][MatchWordMarketing]
 
