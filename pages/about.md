@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who's behind?
+title: 🧑🏽‍💻 Who's behind?
 ---
 
 {%- include profile/avatar.html -%}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio
+title: 💼 Portfolio
 ---
 [MatchWordMarketing]: /assets/portfolio/MatchWord/matchword_maketing.jpg
 [MatchWordLight]: /assets/portfolio/MatchWord/pathAnimatedLight.gif?style=centerme
