@@ -4,7 +4,6 @@ permalink: /categories/
 title: 🗂 Categories
 ---
 
-
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
@@ -13,11 +12,16 @@ title: 🗂 Categories
     <p></p>
 
     <h3 class="category-head">{{ category_name | capitalize }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
+
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+
+    <a class="post-card post-link category-post" href="{{ site.baseurl }}{{ post.url }}">
+        <h4> {{ post.title | escape }} </h4>
+        <section>
+          <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
+        </section>
+    </a>
+
     {% endfor %}
   </div>
 {% endfor %}
