@@ -5,24 +5,24 @@ title: 🗂 Categories
 ---
 
 <div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
+    {% for category in site.categories %}
+    <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div id="#{{ category_name | slugize }}"></div>
+        <p></p>
 
-    <h3 class="category-head">{{ category_name | capitalize }}</h3>
+        <h3 class="category-head">{{ category_name | capitalize }}</h3>
 
-    {% for post in site.categories[category_name] %}
+        {% for post in site.categories[category_name] %}
 
-    <a class="post-card post-link category-post" href="{{ site.baseurl }}{{ post.url }}">
-        <h4> {{ post.title | escape }} </h4>
-        <section>
-          <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
-        </section>
-    </a>
+        <a class="post-card post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <h4> {{ post.title | escape }} </h4>
+            <section>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
+            </section>
+        </a>
 
+        {% endfor %}
+    </div>
     {% endfor %}
-  </div>
-{% endfor %}
 </div>

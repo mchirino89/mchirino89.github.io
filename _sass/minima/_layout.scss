@@ -276,6 +276,7 @@ img[src$="centerme"] {
   -ms-transition: box-shadow 300ms ease;
   -o-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
+  margin-bottom: 1.5em;
 }
 
 .post-card:hover {
@@ -396,8 +397,4 @@ h2, h3, h4, h5, h6 {
 
 .rel:hover {
   opacity: 1;    
-}
-
-.category-post {
-  margin-bottom: 1.5em;
 }

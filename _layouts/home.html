@@ -6,20 +6,9 @@ layout: default
   <h1 class="page-heading">Latest posts</h1>
   {{ content }}
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li class="post-card">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2> {{ post.title | escape }} </h2>
-        </a>
-        <section>
-          <p class="post-excerpt">{{ post.excerpt | strip_html | escape | truncate_words: 75 }}</p>
-          <span class="post-meta">🗓 {{ post.date | date: date_format }}</span> 
-          <a class="category-link" href="{{ site.baseurl }}/categories/#{{ category | slugize }}">
-            <span class="post-meta post-category">🗂 {{ post.categories[0] | capitalize }}</span>
-          </a>
-        </section>
-    </li>
-    {%- endfor -%}
-  </ul>
+
+  {%- for post in site.posts -%}
+    {%- include post-card.html -%}
+  {%- endfor -%}
+
 </div>
