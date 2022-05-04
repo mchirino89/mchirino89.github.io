@@ -7,15 +7,11 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        🗓 {{ page.date | date: date_format }}
       </time>
       {%- include header/reading_time.html -%}
+      {%- include header/category.html -%}
     </p>
-    <article class="tag-container">
-      {%- for tag in page.tags -%}
-      <span class="post-meta post-tag">{{ tag }}</span> 
-      {%- endfor -%}
-    </article>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
