@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "📖 Books I've read: The manager's path (by  Camille Fournier)"
+title:  "Books I've read: The manager's path (by  Camille Fournier)"
 excerpt: Do we (as developers) know what it takes/makes a great manager? 
 categories: books
 tags: [engineering, management, tech, IT]

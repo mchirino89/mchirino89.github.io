@@ -208,6 +208,15 @@
   color: var(--grey-color);
 }
 
+.post-detail-meta {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.post-detail-tag {
+  flex-grow: 1
+}
+
 .post-category {
   float: right;
   font-style: italic;
@@ -267,6 +276,7 @@ img[src$="centerme"] {
   -ms-transition: box-shadow 300ms ease;
   -o-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
+  margin-bottom: 1.5em;
 }
 
 .post-card:hover {
@@ -333,7 +343,7 @@ img[src$="centerme"] {
 // ------ Personalization starts here ---------
 
 .reading-time {
-  float: right;
+  text-align: center;
 }
 
 .buy-me-coffe-button {
