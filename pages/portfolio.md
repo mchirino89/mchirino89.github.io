@@ -23,9 +23,9 @@ title: 💼 Portfolio
 [ci]: https://github.com/features/actions
 [RMRepo]: https://github.com/mchirino89/RickAndMorty
 
-## 📱 MatchWord
+## 📱 MatchWords
 
-My most recent side project, 2022 is been all MatchWord coding during free time for me. The game mechanics are as simple as they come: form as many words as possible before the time runs up, dragging your finger around in ANY and ALL directions.
+My most recent side project. 2022 is been all MatchWords coding during my free time. The game's mechanic is as simple as it comes: form as many words as possible before the time runs up, dragging your finger around in ANY and ALL directions.
 
 ![Match word marketing][MatchWordMarketing]
 
@@ -63,7 +63,7 @@ More details of it [here][RMRepo]
 
 This blog itself is a sample of my work. While young -I started it in mid 2020-, it shows snippets of my day to day workflow as well as some of the reading and learnings I've picked along the way.
 
-It's simple yet functional: responsive and lightweight as well as both dark/light mode friendly 😄
+It's simple yet functional: responsive and lightweight as well as both dark/light mode friendly with categories and searchability included 😄
 
 ![blog cover][blogImage]
 
