@@ -5,6 +5,7 @@ title: 🗂 Categories
 ---
 
 <div id="archives">
+    {%- include ads/banner.html -%}
     {% for category in site.categories %}
     <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -25,4 +26,5 @@ title: 🗂 Categories
         {% endfor %}
     </div>
     {% endfor %}
+    {%- include ads/banner.html -%}
 </div>
