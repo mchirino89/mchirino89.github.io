@@ -16,8 +16,8 @@ title: 💼 Portfolio
 [avengers]: https://collectibles.panini.co.uk/editorial/road-to-avengers-endgame-sticker-collection.html
 [soccer]: http://collectibles.panini.uy/editorial/album-conmebol-copa-america-2021-preview.html
 [wikis]: https://rickandmortyapi.com
-[network]: https://github.com/mchirino89/MauriNet
-[spmUI]: https://github.com/mchirino89/MauriKit
+[network]: https://github.com/GeekingwithMauri/MauriNet
+[spmUI]: https://github.com/GeekingwithMauri/MauriKit
 [rickAndMorty]: https://github.com/mchirino89/RickAndMorty
 [dynamic]: https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/
 [ci]: https://github.com/features/actions
