@@ -14,7 +14,8 @@ well and performs properly on a mobile device then you (or the team behind your 
 
 Beyond that, I like reading ([A LOT](https://www.goodreads.com/user/show/95758480-mauricio-chirino)), also collaborating, and [give back](https://stackoverflow.com/users/2376336/mauricio-chirino) to the community when time and family obligations allow me to. Feel free to [reach me out](https://github.com/mchirino89) or leave some [comment](https://twitter.com/Chirino89M). If it's a business/idea topic you can also [find me around](https://www.linkedin.com/in/mauriciochirino/) with a more serious face 👨🏽‍💻
 
-I'm a big believer in crypto power and that lead me to work on [Bitso](https://bitso.com), one of the most valuable fintech in Latin America. 
+I'm a big believer in crypto power and that lead me to work on [Bitso](https://medium.com/bitso-engineering/what-makes-a-good-unit-test-d6fcb48089f6), one of the most valuable fintech in Latin America. 
+
 ## My résumé?
 
 Need a PDF version of my CV? No problem: download it {%- include profile/cvDownloadable.html -%}
