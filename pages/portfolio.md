@@ -9,7 +9,7 @@ title: 💼 Portfolio
 [MyStickersDark]: /assets/portfolio/MyStickers/dark.jpg
 [iPad]: /assets/portfolio/MyStickers/iPad.jpg
 [RickAndMortyImage]: /assets/portfolio/RickAndMorty/RickAndMorty.jpg
-[libraryImage]: /assets/portfolio/Library/logo.png
+[libraryImage]: /assets/resources/logo.png
 
 [mw]: https://apps.apple.com/us/app/matchwords-build-words/id1612434602
 [stickers]: https://apps.apple.com/us/app/mystickers/id884352968
