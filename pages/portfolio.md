@@ -9,23 +9,23 @@ title: 💼 Portfolio
 [MyStickersDark]: /assets/portfolio/MyStickers/dark.jpg
 [iPad]: /assets/portfolio/MyStickers/iPad.jpg
 [RickAndMortyImage]: /assets/portfolio/RickAndMorty/RickAndMorty.jpg
-[blogImage]: /assets/portfolio/Blog/cover.png
+[libraryImage]: /assets/resources/logo.png
 
 [mw]: https://apps.apple.com/us/app/matchwords-build-words/id1612434602
 [stickers]: https://apps.apple.com/us/app/mystickers/id884352968
 [avengers]: https://collectibles.panini.co.uk/editorial/road-to-avengers-endgame-sticker-collection.html
 [soccer]: http://collectibles.panini.uy/editorial/album-conmebol-copa-america-2021-preview.html
-[wikis]: https://rickandmortyapi.com
+[library]: https://github.com/GeekingwithMauri
 [network]: https://github.com/GeekingwithMauri/MauriNet
-[spmUI]: https://github.com/GeekingwithMauri/MauriKit
-[rickAndMorty]: https://github.com/mchirino89/RickAndMorty
-[dynamic]: https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/
-[ci]: https://github.com/features/actions
-[RMRepo]: https://github.com/mchirino89/RickAndMorty
+[ads]: https://github.com/GeekingwithMauri/AdsEngine
+[utils]: https://github.com/GeekingwithMauri/MauriUtils
+[tracking]: https://github.com/GeekingwithMauri/TrackingEngine
+[notifications]: https://github.com/GeekingwithMauri/NotificationsEngine
+[structures]: https://github.com/GeekingwithMauri/DataStructures
 
 ## 📱 MatchWords
 
-My most recent side project. 2022 is been all MatchWords coding during my free time. The game's mechanic is as simple as it comes: form as many words as possible before the time runs up, dragging your finger around in ANY and ALL directions.
+My most recent side project. 2022 was all about MatchWords coding during my free time. The game's mechanic is as simple as it comes: form as many words as possible before the time runs up, dragging your finger around in ANY and ALL directions.
 
 ![Match word marketing][MatchWordMarketing]
 
@@ -45,28 +45,19 @@ This is probably the first idea of an app I ever developed for publication back 
 
 Feel free to [check it out][stickers].
 
-## 📱 Rick and Morty
+## ⚒️ Geeking with Mauri 
 
-This one is my most recent experiment/hobby project and I chose a basic API for implementing it such as [Rick and Morty's wiki][wikis]. While it's far from my most visually appealing job, I think it shines on the technical side of things:
+![marketing][libraryImage]
 
-- I built it following TDD for the [networking layer][network]
-- It's UI is [entirely UIKit programmatic][spmUI] 
-- It follows SOLID principles, specially Single responsibility via dependency injection (leveraged by SPM)
-- It features dark mode and full accessibility support ([dynamic fonts][dynamic]) on all its text
-- The repo is setup with a basic flow for continues integration via [Github actions][ci]
+It's my public [Github page](library). It's where I share the libraries I use for my projects. Among them:
 
-![Rick and Morty][RickAndMortyImage]
-
-More details of it [here][RMRepo]
-
-## 💻🖥📱 Geeking with Mauri
-
-This blog itself is a sample of my work. While young -I started it in mid 2020-, it shows snippets of my day to day workflow as well as some of the reading and learnings I've picked along the way.
-
-It's simple yet functional: responsive and lightweight as well as both dark/light mode friendly with categories and searchability included 😄
-
-![blog cover][blogImage]
+- [MauriNet][network]: Thin layer for standard network handling
+- [AdsEngine][ads]: Ad's wrapper to preserve your codebase dependency free from 3rd-party vendors.
+- [MauriUtils][utils]: Includes some of the most basic and used commonly written features in everyday Swift development
+- [TrackingEngine][tracking]: Tracking wrapper to preserve your codebase dependency free from 3rd-party vendors.
+- [NotificationsEngine][notifications]: Notifications wrapper to preserve your codebase dependency free from 3rd-party vendors
+- [DataStructures][structures]: Elementary data structures implemented in Swift language
 
 ---
 
-To see it all out, check my [Github account](https://github.com/mchirino89) 👨🏽‍💻
+Check my [Github account](https://github.com/mchirino89) for more details 👨🏽‍💻
