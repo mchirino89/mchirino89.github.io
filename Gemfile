@@ -32,11 +32,12 @@ gem 'jemoji'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'github-pages', '~> 228'
+  gem "activesupport", ">= 6.1.7.5"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo"
   gem "tzinfo-data"
 end
