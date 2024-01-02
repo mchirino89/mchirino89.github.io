@@ -2,9 +2,10 @@ source "https://rubygems.org"
 
 group :development, :test do
   gem "rspec"
+  gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem "capybara"
+  gem "rexml"
   gem "rack-jekyll"
   gem "rack", ">= 2.1.4"
   gem "pry"
