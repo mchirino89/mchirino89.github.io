@@ -58,7 +58,7 @@ To test this workflow:
 
 ## Benefits
 
-- **Zero-day vulnerability protection**: Vulnerabilities are fixed as soon as Dependabot detects them
+- **Automated vulnerability remediation**: Known vulnerabilities are fixed as soon as Dependabot detects them
 - **Reduced maintenance burden**: No manual intervention needed for security updates
 - **Always up-to-date**: Dependencies stay current with security patches
 - **CI-validated**: Only merges if all tests pass
