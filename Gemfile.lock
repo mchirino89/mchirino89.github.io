@@ -251,7 +251,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (4.0.7)
     racc (1.8.1)
-    rack (2.2.13)
+    rack (2.2.20)
     rack-jekyll (0.3.5)
       jekyll
       rack
@@ -261,7 +261,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.8.3)
-    rexml (3.3.9)
+    rexml (3.4.2)
     rouge (3.26.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
