@@ -3,6 +3,7 @@ require 'capybara/rspec'
 require 'rack/jekyll'
 require 'rack/test'
 require 'pry'
+require 'yaml'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -23,5 +24,7 @@ RSpec.configure do |config|
   # (force_build: true) builds the site before the tests are run,
   # so our tests are always running against the latest version
   # of our jekyll site.
-  Capybara.app = Rack::Jekyll.new(force_build: true)
+  # In CI, disable force_build to improve reliability - build separately
+  force_build = ENV['CI'] != 'true'
+  Capybara.app = Rack::Jekyll.new(force_build: force_build)
 end
