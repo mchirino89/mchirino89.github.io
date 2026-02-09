@@ -8,7 +8,10 @@ tags: [coding, ai, engineering, work, ci]
 
 [wellKnown]: https://developer.apple.com/documentation/xcode/supporting-associated-domains
 [ghAction]: https://github.com/features/actions
+<<<<<<< HEAD
 [target]: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onpushpull_requestpull_request_targetpathspaths-ignore
+=======
+>>>>>>> 157b27400add17a9f69708b078b4b80c0060cd50
 [Think]: {% post_url /work/2021-03-25-thinkingBeforeCoding %}
 [testing]: {% post_url /swift/2020-11-02-testing3rdFwk %}
 [swiftRN]: {% post_url /coding/2026-01-26-fromSwiftToReact %}
@@ -21,14 +24,15 @@ Automating rules (image generated with AI)
 
 > Implementation is getting cheaper. Thinking is not.
 
-- [A tiny mistake with a big blast radius](#a-tiny-mistake-with-a-big-blast-radius)
-- [Enter my one-hit song: unit tests 🕺🏽](#enter-my-one-hit-song-unit-tests-)
-- [Letting AI sweat the small stuff](#letting-ai-sweat-the-small-stuff)
-- [But Mauri, isn’t this just busywork?](#but-mauri-isnt-this-just-busywork)
-- [Wiring it into CI](#wiring-it-into-ci)
-- [AI changes the how, not the why](#ai-changes-the-how-not-the-why)
-- [The real skill shift](#the-real-skill-shift)
-- [Closing thoughts](#closing-thoughts)
+- [\[target\]: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onpushpull\_requestpull\_request\_targetpathspaths-ignore](#target-httpsdocsgithubcomenactionsreferenceworkflows-and-actionsworkflow-syntaxonpushpull_requestpull_request_targetpathspaths-ignore)
+  - [A tiny mistake with a big blast radius](#a-tiny-mistake-with-a-big-blast-radius)
+  - [Enter my one-hit song: unit tests 🕺🏽](#enter-my-one-hit-song-unit-tests-)
+  - [Letting AI sweat the small stuff](#letting-ai-sweat-the-small-stuff)
+  - [But Mauri, isn’t this just busywork?](#but-mauri-isnt-this-just-busywork)
+  - [Wiring it into CI](#wiring-it-into-ci)
+  - [AI changes the how, not the why](#ai-changes-the-how-not-the-why)
+  - [The real skill shift](#the-real-skill-shift)
+  - [Closing thoughts](#closing-thoughts)
 
 ## A tiny mistake with a big blast radius
 
