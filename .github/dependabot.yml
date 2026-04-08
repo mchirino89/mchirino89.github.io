@@ -1,0 +1,19 @@
+version: 2
+updates:
+  # Enable version updates for Ruby (Bundler)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # Automatically detect and create PRs for security vulnerabilities
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "security"
+    # Group all dependency updates into a single PR when possible
+    groups:
+      security-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "security"
