@@ -10,7 +10,7 @@ By using Breath you agree to these terms.
 
 ## The service
 
-Breath provides guided one-minute breathing exercises. The Calm pattern is free forever. Additional patterns require a Breath Premium subscription.
+Breath provides guided one-minute breathing exercises. The Calm pattern is free forever; the free tier is supported by a small banner ad. Additional patterns require a Breath Premium subscription, which also removes all ads.
 
 ## Subscriptions
 
