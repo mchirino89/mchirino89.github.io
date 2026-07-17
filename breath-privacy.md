@@ -4,7 +4,7 @@ title: "Breath — Privacy Policy"
 permalink: /breath/privacy
 ---
 
-*Last updated: July 12, 2026*
+*Last updated: July 16, 2026*
 
 Breath is a one-minute breathing app made by Mauricio Chirino. It is designed to know as little about you as possible.
 
@@ -18,6 +18,10 @@ Breath is a one-minute breathing app made by Mauricio Chirino. It is designed to
 - **RevenueCat** manages subscription status. It receives a pseudonymous app-generated identifier and your purchase receipt — never your name, email, or payment information. See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
 - **Sentry** receives crash reports (device model, OS version, and the technical state of the app at the moment of a crash) so we can fix bugs. Crash reports contain no personal data. See [Sentry's privacy policy](https://sentry.io/privacy/).
 - **Google AdMob** shows a small banner ad to free users only — subscribing to Breath Premium removes ads entirely. AdMob may collect device identifiers and ad-interaction data to serve and measure ads. We do not pass it any personal information ourselves. See [Google's privacy policy](https://policies.google.com/privacy) and [how Google uses ad data](https://policies.google.com/technologies/ads).
+
+## Apple Health
+
+With your permission, Breath saves each completed session to Apple Health as a mindful minute. This is write-only: Breath never reads anything from Health, and your Health data stays on your device under Apple's control — we never see it, store it, or transmit it. You can revoke this permission anytime in Settings → Health → Data Access & Devices.
 
 ## Notifications
 
