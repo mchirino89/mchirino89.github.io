@@ -50,6 +50,10 @@ defaults:
 sass:
   style: compressed
 
+# Jekyll skips dot-directories by default; the AASA file must be published for
+# the Breath app's Universal Links to verify.
+include: [".well-known"]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

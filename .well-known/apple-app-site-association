@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["F7CXK2PKWD.com.mauriciochirino.breath"],
+        "components": [
+          { "/": "/breath-site*", "comment": "referral landing and anything under it" }
+        ]
+      }
+    ]
+  }
+}
