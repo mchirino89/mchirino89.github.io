@@ -3,8 +3,7 @@ source "https://rubygems.org"
 group :development, :test do
   gem "rspec"
   gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
+  gem "selenium-webdriver", ">= 4.11" # ponytail: Selenium Manager handles drivers, no webdrivers gem
   gem "rexml"
   gem "rack-jekyll"
   gem "rack", ">= 2.1.4"
